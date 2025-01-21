@@ -7,7 +7,7 @@
 
 		<div id="logo">
 			<center>
-				<h1 style="margin: 0px;"><a href="{SITE_ADDR}" target="_blank"><img style="width:300px; height:auto;" src="https://cecybot2025/admin/assets/img/logo.png"></a></h1>
+				<h1 style="margin: 0px;"><a href="{SITE_ADDR}" target="_blank"><img style="width:300px; height:auto;" src="https://cecybot2025.com/admin/assets/img/logo.png"></a></h1>
 			</center>
 		</div>
 
