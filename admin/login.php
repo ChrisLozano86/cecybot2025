@@ -50,7 +50,7 @@ require_once 'class/Usuario.php';
         <h5 class="modal-title" id="exampleModalLongTitle">Acceso al CPANEL</h5>
       </div>
       <div class="modal-body">
-      <img src="assets/img/logo2.png" class="d-block mx-auto w-50">
+      <img src="assets/img/logo.png" class="d-block mx-auto" style="width: 35%;">
       <br>
       
       <form action="login.php" method="post">

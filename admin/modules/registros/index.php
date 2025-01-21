@@ -12,8 +12,9 @@ include_once '../../assets/template/header.php';
             <h3 class="text-center"> Registros de equipos </h3>
             
               <a href="../../../registro/index.php" class="btn btn-default btn-custom" > <i class="fas fa-plus"></i> Registrar nuevo Equipo </a><br><br>
-              <a href="report.php" class="btn btn-default btn-custom"> <i class="fas fa-file-excel"></i> Descargar Excel </a><br><br>
-
+              <a href="report.php" class="btn btn-default btn-custom"> <i class="fas fa-file-excel"></i> Descargar Excel </a>
+              <a href="download_logos.php" class="btn btn-default btn-custom"> <i class="fas fa-image"></i> Descargar Logos </a>
+              <a href="download_tickets.php" class="btn btn-default btn-custom"> <i class="fas fa-file"></i> Descargar Comprobantes </a><br><br>
               <br>
             
 

@@ -81,10 +81,11 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
         $registro->setUrlComprobante($url_imagen2);    
       } 
 
+      $registro->setUrlQr($url_qr); 
             
               $registro->guardar();
               header('Location: index.php');
-              
+            
             
     }
       
@@ -102,7 +103,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
           <?php 
           if (isset($_REQUEST['id'])){
             
-            $title = 'Información de Registro <br> <strong> '.$registro->getNombreEquipo() .'</strong>';
+            $title = 'Equipo <strong> '.$registro->getNombreEquipo() .'</strong>';
             $date = date("d/m/Y", strtotime($registro->getFechaRegistro()));
           }else{
             $title = 'Registrar Nuevo Equipo';
@@ -111,10 +112,13 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
 
 
           <div  style="width:80%; margin-left:10%; background-color: white; padding:20px; border-radius:10px;">
-
-          <h4 class="text-center"><?php echo $title ?></h4> <br>
-      
-
+          <div style="display: inline-block; width: 50%; margin-left: 25%;">
+          <img src="<?= $registro->getUrlQR(); ?>" style="float:left;" >
+          <h4 style="line-height: 100px;"><?php echo $title ?></h4>
+          
+          </div>
+           <br>
+          
             <form action="save.php" method="post" id="registro_form" enctype="multipart/form-data">
 
             <div class="form-group">
@@ -124,6 +128,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <div class="form-group">
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
+            <input class="form-control" type="hidden" name="url_qr" id="url_qr" value="<?php echo $registro->getUrlQr(); ?>">
             </div>
 
             <div class="form-group">
@@ -131,7 +136,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
                </label>
             <?php    if(isset($_REQUEST['id'])): ?>
               </br>
-            <img src="<?= $registro->getUrlImagen(); ?>" style="width:100px" />
+            <img src="<?= $registro->getUrlImagen(); ?>" style="width:150px" />
             </br></br>
             <?php endif; ?>
             <input type="file" class="form-control-file" name="url_img" id="url_img" <?php if($registro->getId()==""){ echo 'required'; }?> >
@@ -149,7 +154,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>  
 
             <div class="form-group">
-            <label for="contenido">Integrante 1</label>
+            <label for="contenido">Integrante 1 (Líder del Equipo)</label>
             <input class="form-control" type="text" name="integrante1" id="integrante1" value="<?php echo $registro->getIntegrante1(); ?>">
             </div>  
 
@@ -195,15 +200,17 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
                </label>
             <?php    if(isset($_REQUEST['id'])): ?>
               </br>
-            <img src="<?= $registro->getUrlComprobante(); ?>" style="width:100px" />
+            <a href="<?= $registro->getUrlComprobante(); ?>" download="comprobante_<?php echo  $registro->getNombreEquipo(); ?>" class="btn btn-info fas fa-file"> Descargar Comprobante de Pago</a>
+              
             </br></br>
             <?php endif; ?>
-            <input type="file" class="form-control-file" name="url_pago" id="url_pago" <?php if($registro->getUrlComprobante()==""){ echo 'required'; }?> >
+            <input type="file" class="form-control-file" name="url_pago" id="url_pago">
+            
             </div>
 
             <div class="form-group">
             <label for="integrante2">Fecha de registro</label>
-            <input class="form-control" type="text" name="fecha_registro" id="fecha_registro"  value="<?php if($registro->getFechaRegistro()!= ""){ echo $date; }?>">
+            <input class="form-control" type="text" name="fecha_registro" id="fecha_registro"  value="<?php if($registro->getFechaRegistro()!= ""){ echo $date; }?>" readonly>
             </div>
 
             <div class="form-group">

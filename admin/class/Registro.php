@@ -163,7 +163,7 @@ class Registro {
     public function guardar() {
         $conexion = new Conexion();
         if($this->id)/*UPDATE*/{
-            $consulta = $conexion->prepare('UPDATE ' . self::TABLA . ' SET  nombre_equipo = :nombre_equipo, coach = :coach,  integrante1 = :integrante1, integrante2 = :integrante2, integrante3 = :integrante3, categoria = :categoria, institucion = :institucion, email = :email, tel = :tel, :url_imagen, :url_comprobante, :url_qr  WHERE id = :id');
+            $consulta = $conexion->prepare('UPDATE ' . self::TABLA . ' SET  nombre_equipo = :nombre_equipo, coach = :coach,  integrante1 = :integrante1, integrante2 = :integrante2, integrante3 = :integrante3, categoria = :categoria, institucion = :institucion, email = :email, tel = :tel, url_imagen = :url_imagen, url_comprobante = :url_comprobante, url_qr = :url_qr  WHERE id = :id');
             $consulta->bindParam(':id', $this->id);
             $consulta->bindParam(':nombre_equipo', $this->nombre_equipo);         
             $consulta->bindParam(':coach', $this->coach);
@@ -245,6 +245,16 @@ class Registro {
   
         $conexion = null;
         return $registros;
+    }
+
+    public function actualizarQR($id, $url_qr){
+        
+        $conexion = new Conexion();
+        $consulta = $conexion->prepare('UPDATE ' . self::TABLA . ' SET url_qr = :url_qr  WHERE id = :id');
+        $consulta->bindParam(':id', $id);
+        $consulta->bindParam(':url_qr', $url_qr);
+        $consulta->execute();
+        $conexion = null;
     }
 
 

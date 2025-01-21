@@ -38,6 +38,7 @@ $institucion = $otraInstitucion;
       $registro->setInstitucion($institucion);
       $registro->setEmail($email);
       $registro->setTel($tel);
+      $registro->setUrlQr(""); 
       
      
 
@@ -48,9 +49,9 @@ $institucion = $otraInstitucion;
        
       if ($_FILES['url_img']['name']!=null) {
 
-              if (!is_dir('uploads/logos')) {
+              /* if (!is_dir('uploads/logos')) {
                 mkdir('uploads/logos', 0777, true); 
-              }
+              } */
              
               $rutaTemporal = $_FILES['url_img']['tmp_name'];
               $extension = pathinfo($_FILES['url_img']['name'], PATHINFO_EXTENSION);
@@ -67,9 +68,9 @@ $institucion = $otraInstitucion;
 
       if ($_FILES['url_pago']['name']!=null) {
 
-        if (!is_dir('uploads/comprobantes')) {
+      /*   if (!is_dir('uploads/comprobantes')) {
           mkdir('uploads/comprobantes', 0777, true); 
-        }
+        } */
        
         $rutaTemporal = $_FILES['url_pago']['tmp_name'];
         $extension = pathinfo($_FILES['url_pago']['name'], PATHINFO_EXTENSION);
@@ -83,21 +84,27 @@ $institucion = $otraInstitucion;
   $registro->setUrlComprobante($url_imagen2);    
 } 
 
-/* Generate SVG markup and write to standard output. */
-$data_qr = "Equipo ".$nombre_equipo;
-$file_name_qr = $nombre_equipo.'.svg';
-$url_qr = 'uploads/qr/'.$file_name_qr;
-header('Content-Type: image/svg+xml');
-$svg = $generator->render_svg('qr', $data_qr , '');
-file_put_contents('../../admin/modules/registros/'.$url_qr, $svg);
-$registro->setUrlQr($url_qr);
-      
+    //Guardar registro del equipo
     $registro->guardar();
 
-        
-       
+    //Generar QR del Registro
+    if($registro->getId()){
 
-        header('Location: ../confirm.php');
+      $id = $registro->getId();
+
+    /* Generate SVG markup and write to standard output. */
+      $data_qr = 'https://cecybot2025.com/registro/search.php?id='.$id;
+      $file_name_qr = $id.'.svg';
+      $url_qr = 'uploads/qr/'.$file_name_qr;
+      header('Content-Type: image/svg+xml');
+      $svg = $generator->render_svg('qr', $data_qr , '');
+      file_put_contents('../../admin/modules/registros/'.$url_qr, $svg); 
+      $registro->actualizarQR($id, $url_qr);
+
+      header('Location: ../confirm.php');
+    }
+
+      
         
       
 }
