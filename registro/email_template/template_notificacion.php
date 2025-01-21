@@ -21,8 +21,9 @@
 
 			
 
-			<p>Su registro para la competencia CECYBOT2025 se ha realizado correctamente en el siguiente link puede consultar sus datos de registro <a href="{DATA_QR}">Información de registro</p>
-			
+			<p>El registro del equipo <strong>{NOMBRE_EQUIPO}</strong> se ha realizado correctamente, favor presentar este email o el código QR generado para el día del evento. </p>
+			<p>Puede consultar la Información de su registro en el siguiente enlace <a href="{DATA_QR}">Información del registro</p>
+			<img style="vertical-align: middle;" src="https://cecybot2025.com/admin/modules/registros/{URL_QR}">
 			
 
 		</div>
