@@ -143,7 +143,7 @@ $institucion = $otraInstitucion;
            
             if (mail($email_to, $email_subject, $email_message, $email_headers) ){ 
              
-              header('Location: ../confirm.php');
+              header('Location: ../confirm.php?data_qr='.$registro->getUrlQr());
 
           }else{
           
