@@ -115,7 +115,7 @@ $institucion = $otraInstitucion;
                 "{SITE_ADDR}" => "https://cecybot2025.com",
                 "{EMAIL_TITLE}" => "Registro CECYBOT2025 ",
                 "{NOMBRE_EQUIPO}" => $registro->getNombreEquipo(),
-                "{URL_QR}" => $registro->getUrlQr(),
+                "{URL_QR}" => 'https://cecybot2025.com/admin/modules/registros/'.$registro->getUrlQr(),
                 "{DATA_QR}" => $data_qr,
             );
         
