@@ -50,7 +50,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
           
 
         
-          <div  style="width:80%; margin-left:10%; background-color: white; padding:20px; border-radius:10px;">
+          <div  style="width:90%; margin-left:5%; background-color: white; padding:20px; border-radius:10px;">
 
           <div style="height: 250px; width: 100%; background-color: #005B97; color: white;">
 
