@@ -25,7 +25,8 @@ document.getElementById('registro_form').addEventListener('submit', function(eve
       valid = false;
     }
 
-    // Validar Logo
+
+    // Validar logo
     const fileInput = document.getElementById('url_img');
     if (fileInput.files.length === 0) {
       valid = true;
@@ -35,24 +36,25 @@ document.getElementById('registro_form').addEventListener('submit', function(eve
       const maxSize = 5 * 1024 * 1024; // 5 MB
 
       if (!allowedExtensions.includes(file.type)) {
-        document.getElementById('error-url_img').textContent = 'El logotipo debe ser una imagen en formato JPG, JPEG o PNG.';
+        document.getElementById('error-url_img').textContent = 'El archivo debe ser una imagen en formato JPG, JPEG o PNG.';
         valid = false;
       }
 
       if (file.size > maxSize) {
-        document.getElementById('error-url_img').textContent = 'El logo debe pesar menos de 5 MB.';
+        document.getElementById('error-url_pago').textContent = 'El archivo debe pesar menos de 5 MB.';
         valid = false;
       }
-    
+    }
 
+   
 
     // Validar archivo
-    const fileInput = document.getElementById('url_pago');
-    if (fileInput.files.length === 0) {
+    const fileInput2 = document.getElementById('url_pago');
+    if (fileInput2.files.length === 0) {
       document.getElementById('error-url_pago').textContent = 'Debes subir un archivo.';
       valid = false;
     } else {
-      const file = fileInput.files[0];
+      const file = fileInput2.files[0];
       const allowedExtensions = ['image/jpeg', 'image/png', 'image/jpg'];
       const maxSize = 5 * 1024 * 1024; // 5 MB
 

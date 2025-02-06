@@ -50,6 +50,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
           <div style="display: inline-block; width: 50%; margin-left: 25%;">
           <img src="<?='../admin/modules/registros/'.$registro->getUrlQR(); ?>" style="float:left;" >
           <h3 style="line-height: 100px;"><?php echo $title ?></h3>
+          <button class="btn btn-primary no-print" onclick="window.print()"> <i class="fas fa-file"></i>Imprimir Comprobante</button>
           
           </div>
            <br>
@@ -135,7 +136,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
            
             </form>
             
-            <button class="btn btn-primary no-print" onclick="window.print()"> <i class="fas fa-file"></i>Imprimir Comprobante</button>
+            
             <a href="../index.php" class="btn btn-info no-print">Cerrar</a>
           
 
