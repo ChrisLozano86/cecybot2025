@@ -74,6 +74,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             <div class="form-group">
             <label for="url_img">Logo del equipo </label>
             <input type="file" class="form-control-file" name="url_img" id="url_img">
+            <small class="text-danger error-message" id="error-url_img"></small>
             </div>
             <div class="form-group">
             <label for="titulo">Nombre del equipo <span class="text text-danger">*</span></label>

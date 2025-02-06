@@ -25,6 +25,27 @@ document.getElementById('registro_form').addEventListener('submit', function(eve
       valid = false;
     }
 
+    // Validar Logo
+    const fileInput = document.getElementById('url_img');
+    if (fileInput.files.length === 0) {
+      valid = true;
+    } else {
+      const file = fileInput.files[0];
+      const allowedExtensions = ['image/jpeg', 'image/png', 'image/jpg'];
+      const maxSize = 5 * 1024 * 1024; // 5 MB
+
+      if (!allowedExtensions.includes(file.type)) {
+        document.getElementById('error-url_img').textContent = 'El logotipo debe ser una imagen en formato JPG, JPEG o PNG.';
+        valid = false;
+      }
+
+      if (file.size > maxSize) {
+        document.getElementById('error-url_img').textContent = 'El logo debe pesar menos de 5 MB.';
+        valid = false;
+      }
+    
+
+
     // Validar archivo
     const fileInput = document.getElementById('url_pago');
     if (fileInput.files.length === 0) {
