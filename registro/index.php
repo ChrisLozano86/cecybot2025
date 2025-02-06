@@ -112,7 +112,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
               <option value="MINI SUMO RC">Mini Sumo RC</option>
               <option value="ROBOT SOCCER">Robot Soccer</option>
               <option value="SEGUIDOR DE LINEA EDUCATIVO">Seguidor de Línea Educativo</option>
-              <option value="SEGUIDOR DE LINEA LIBRE">Seguidor de Línea Libre</option>
+              <option value="SEGUIDOR DE LINEA PROFESIONAL">Seguidor de Línea Profesional</option>
             </select> 
             <small class="text-danger error-message" id="error-categoria"></small>
             </div>
@@ -128,11 +128,11 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </div>
 
             <div class="form-group" style="display: none;" id="unidadAcademica">               
-                  <input type="text" class="form-control"  name="unidadAcademica" placeholder="Especifica el Plantel al que pertences" />
+                  <input type="text" class="form-control"  name="unidadAcademica" placeholder="Plantel al que pertences" />
             </div>
 
             <div class="form-group" style="display: none;" id="otraInstitucion">               
-                  <input type="text" class="form-control" name="otraInstitucion"  placeholder="Especifica la Institución a la que pertences" />
+                  <input type="text" class="form-control" name="otraInstitucion"  placeholder="Nombre de la Institución a la que pertences" />
             </div>
             <div class="form-group">
             <label for="email">Email <span class="text text-danger">*</span></label>
@@ -153,7 +153,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </div>
 
             <div class="form-group">
-            <input type="submit" class="btn btn-lg btn-primary" value="Enviar Registro del equipo">
+            <input type="submit" class="btn btn-lg btn-primary" value="Registrar equipo">
             </div>  
            
             </form>
