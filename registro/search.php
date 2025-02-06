@@ -21,6 +21,20 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
 <script src="../admin/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="../admin/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<style>
+    /* Ocultar solo durante la impresión */
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
+  </style>
+  <script>
+    // Mostrar el diálogo de impresión al cargar la página
+    window.onload = function () {
+      window.print();
+    };
+  </script>
 </head>
 <body style="background-color: #005B97;">
 
@@ -116,17 +130,6 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>
 
             <div class="form-group">
-            <label for="url_pago">Comprobante de pago
-               </label>
-            <?php    if(isset($_REQUEST['id'])): ?>
-              </br>
-            <a href="<?='../admin/modules/registros/'.$registro->getUrlComprobante(); ?>" download="comprobante_<?php echo  $registro->getNombreEquipo(); ?>" class="btn btn-info fas fa-file"> Descargar Comprobante de Pago</a>
-            <?php endif; ?>
-            <!-- <input type="file" class="form-control-file" name="url_pago" id="url_pago"> -->
-            
-            </div>
-
-            <div class="form-group">
             <label for="integrante2">Fecha de registro</label>
             <input class="form-control" type="text" name="fecha_registro" id="fecha_registro"  value="<?php if($registro->getFechaRegistro()!= ""){ echo $date; }?>" readonly>
             </div>
@@ -136,8 +139,9 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>   -->
            
             </form>
-
-            <a href="../index.php" class="btn btn-primary btn-lg">Regresar al inicio</a>
+            
+            <button class="no-print" onclick="window.print()">Imprimir Comprobante</button>
+            <a href="../index.php" class="btn btn-warning no-print">Cerrar</a>
           
 
         

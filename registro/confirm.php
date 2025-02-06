@@ -12,6 +12,10 @@
 <script src="../admin/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <?php 
+  if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+  ?>
 <!-- Modal -->
 <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -22,10 +26,13 @@
       <div class="modal-body">
       <img src="../admin/assets/img/logo.png" class="d-block mx-auto w-50">
       <br>
-      <p>El registro de su equipo se ha realizado correctamente y se ha enviado un correo electrónico con la información de su registro.</p>
-      <p>¡Nos vemos el día de la competencia!</p>
+      <p>El registro de su equipo se ha realizado correctamente, se ha enviado un correo electrónico con la información, si el correo electrónico no aparece en su bandeja de entrada, revise en bandeja de spam
+        de igual manera en el siguiente botón puede descargar su comprobante de registro</p>
+      <a href="search.php?id=<?php echo $id ?>" class="btn btn-info btn-lg">Descargar comprobante de registro</a>
+      <p>Por favor guarde o imprima el comprobante de su registro para cualquier aclaración el día de la compentencia</p>
       <hr>
-     <p>Si tienes alguna duda, contactanos </p>
+     <p>¡Nos vemos el día del evento!</p>
+     <p>Si tienes alguna duda, contactanos por WhatsApp al número 000-00000 </p>
      <a href="index.php" class="btn btn-primary">Cerrar</a>
       </div>
 
@@ -37,11 +44,14 @@
   $( document ).ready(function() {
     $('#LoginModal').modal({backdrop: 'static', keyboard: false})
     $('#LoginModal').modal('toggle')
-
-
-     
   });
   </script>
+
+  <?php
+  }else{
+    header('Location: index.php');
+  }
+  ?>
 </body>
 
 </html>
