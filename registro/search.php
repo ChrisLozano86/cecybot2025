@@ -29,12 +29,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
       }
     }
   </style>
-  <script>
-    // Mostrar el diálogo de impresión al cargar la página
-    window.onload = function () {
-      window.print();
-    };
-  </script>
+  
 </head>
 <body style="background-color: #005B97;">
 
@@ -140,8 +135,8 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
            
             </form>
             
-            <button class="no-print" onclick="window.print()">Imprimir Comprobante</button>
-            <a href="../index.php" class="btn btn-warning no-print">Cerrar</a>
+            <button class="btn btn-primary no-print" onclick="window.print()"> <i class="fas fa-file"></i>Imprimir Comprobante</button>
+            <a href="../index.php" class="btn btn-info no-print">Cerrar</a>
           
 
         
