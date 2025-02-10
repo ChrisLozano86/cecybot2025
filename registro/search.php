@@ -28,6 +28,13 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
         display: none;
       }
     }
+
+    input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #333; /* Ajusta el color del texto si es necesario */
+}
   </style>
   
 </head>
