@@ -105,7 +105,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
             <div class="form-group">
               <label for="categoria">Categoria <span class="text text-danger">*</span></label>
-            <select name="categoria" id="categoria" class="form-control" style="width: 50%;">
+            <select name="categoria" id="categoria" class="form-control" style="width: 80%;">
             <option value="">Selecciona una categoría</option>
               <option value="MINI SUMO RC">Mini Sumo RC</option>
               <option value="ROBOT SOCCER">Robot Soccer</option>
@@ -117,7 +117,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
             <div class="form-group">
             <label for="institucioninstitucionSeleccionada">Institución que representas <span class="text text-danger">*</span></label>
-            <select class="form-control" name="institucionSeleccionada" id="institucionSeleccionada"  style="width: 50%;" onchange="registrarUnidadAcademica()">
+            <select class="form-control" name="institucionSeleccionada" id="institucionSeleccionada"  style="width: 80%;" onchange="registrarUnidadAcademica()">
                     <option value="">Selecciona una opción</option>
                     <option value="1" >Colegio de Estudios Cientificos y Tecnológicos del Estado de Guanajuato</option>
                     <option value="2" >Otra Institución</option>
