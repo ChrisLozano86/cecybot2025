@@ -69,7 +69,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </div>
 
             <div class="form-group">
-            <label for="url_img">Logo del equipo </label>
+            <label for="url_img">Logo del equipo </label><br>
             <small>Sube el logo de tu equipo en formato de imagen JPG, JPEG, PNG, con peso menor a 5MB.</small>
             <input type="file" class="form-control-file" name="url_img" id="url_img">
             <small class="text-danger error-message" id="error-url_img"></small>
@@ -145,7 +145,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </div>
 
             <div class="form-group">
-            <label for="url_pago">Comprobante de pago <span class="text text-danger">*</span></label>
+            <label for="url_pago">Comprobante de pago <span class="text text-danger">*</span></label><br>
             <small>Escanea, toma una foto o captura de pantalla a tu comprobante, voucher o transferencia del pago de la inscripción.</small>
             <input type="file" class="form-control-file" name="url_pago" id="url_pago">
             <small class="text-danger error-message" id="error-url_pago"></small>
