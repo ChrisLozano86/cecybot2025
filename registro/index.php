@@ -69,7 +69,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
 <div id="loader">
     <img src="https://i.gifer.com/ZZ5H.gif" alt="Cargando...">
-    
+    <p>Cargando y validando su información, por favor espere un momento...</p>
   </div>
 
 <div class="container-fluid">
