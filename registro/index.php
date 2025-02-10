@@ -68,7 +68,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 <body style="background-color: #005B97;">
 
 <div id="loader">
-    <img src="https://i.gifer.com/ZZ5H.gif" alt="Cargando...">
+    <img src="https://i.gifer.com/ZZ5H.gif" alt="Cargando..."> <br>
     <p>Cargando y validando su información, por favor espere un momento...</p>
   </div>
 
@@ -99,7 +99,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
             <div class="form-group">
             <label for="url_img">Logo del equipo </label><br>
-            <small>Sube el logo de tu equipo en formato de imagen JPG, JPEG, PNG, con peso menor a 5MB.</small>
+            <small>Sube el logo de tu equipo en formato de imagen JPG, JPEG, PNG, con peso menor a 5MB. (Opcional) </small>
             <input type="file" class="form-control-file" name="url_img" id="url_img">
             <small class="text-danger error-message" id="error-url_img"></small>
             </div>
