@@ -69,7 +69,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
 <div id="loader">
     <img src="https://i.gifer.com/ZZ5H.gif" alt="Cargando...">
-    <p>Cargando información, por favor espere....</p>
+    
   </div>
 
 <div class="container-fluid">
@@ -188,7 +188,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 <!-- Validate -->
 <script src="../admin/assets/js/registro_validate.js"></script> 
 <script>
-    const form = document.getElementById('uploadForm');
+    const form = document.getElementById('registro_form');
     const loader = document.getElementById('loader');
 
     form.addEventListener('submit', function (e) {
