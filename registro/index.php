@@ -10,10 +10,34 @@ $registro = new Registro();
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Theme style -->
    <link rel="stylesheet" href="../admin/assets/css/adminlte.css">
+   
 <!-- jQuery -->
 <script src="../admin/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="../admin/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    /* Estilo del overlay del loader */
+    #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      visibility: hidden;
+    }
+
+    #loader img {
+      width: 80px;
+    }
+  </style>
+
+</head>
 
 <script>
 
@@ -40,8 +64,13 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
 </script>
 
-</head>
+
 <body style="background-color: #005B97;">
+
+<div id="loader">
+    <img src="https://i.gifer.com/ZZ5H.gif" alt="Cargando...">
+    <p>Cargando información, por favor espere....</p>
+  </div>
 
 <div class="container-fluid">
         <div class="row">
@@ -158,6 +187,14 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </form>
 <!-- Validate -->
 <script src="../admin/assets/js/registro_validate.js"></script> 
+<script>
+    const form = document.getElementById('uploadForm');
+    const loader = document.getElementById('loader');
+
+    form.addEventListener('submit', function (e) {
+      loader.style.visibility = 'visible'; // Mostrar el loader
+    });
+  </script>
           </div>
           </div>
           <!-- /.col -->
