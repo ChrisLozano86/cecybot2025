@@ -54,7 +54,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
           <img src="../admin/assets/img/banner1.jpg" style="width: 100%;" alt="CECYBOT 2025">
 
-          <h1 class="text-center">REGISTRO DE EQUIPOS</h1> <br>
+          <h2 class="text-center">REGISTRO DE EQUIPOS</h2> <br>
       
           <p>Los campos con <span class="text text-danger">*</span> son obligatorios.</p>
             <form action="lib/procesar_registro.php" method="post" id="registro_form" enctype="multipart/form-data" novalidate>
@@ -70,6 +70,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
             <div class="form-group">
             <label for="url_img">Logo del equipo </label>
+            <small>Sube el logo de tu equipo en formato de imagen JPG, JPEG, PNG, con peso menor a 5MB.</small>
             <input type="file" class="form-control-file" name="url_img" id="url_img">
             <small class="text-danger error-message" id="error-url_img"></small>
             </div>
@@ -145,6 +146,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
             <div class="form-group">
             <label for="url_pago">Comprobante de pago <span class="text text-danger">*</span></label>
+            <small>Escanea, toma una foto o captura de pantalla a tu comprobante, voucher o transferencia del pago de la inscripción.</small>
             <input type="file" class="form-control-file" name="url_pago" id="url_pago">
             <small class="text-danger error-message" id="error-url_pago"></small>
             </div>

@@ -176,7 +176,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
               <option value="MINI SUMO RC" <?php if($registro->getCategoria()=='MINI SUMO RC'){echo 'selected';}?>>MINI SUMO RC</option>
               <option value="ROBOT SOCCER" <?php if($registro->getCategoria()=='ROBOT SOCCER'){echo 'selected';}?>>ROBOT SOCCER</option>
               <option value="SEGUIDOR DE LINEA EDUCATIVO" <?php if($registro->getCategoria()=='SEGUIDOR DE LINEA EDUCATIVO'){echo 'selected';}?>>SEGUIDOR DE LINEA EDUCATIVO</option>
-              <option value="SEGUIDOR DE LINEA LIBRE" <?php if($registro->getCategoria()=='SEGUIDOR DE LINEA LIBRE'){echo 'selected';}?>>SEGUIDOR DE LINEA LIBRE</option>
+              <option value="SEGUIDOR DE LINEA PROFESIONAL" <?php if($registro->getCategoria()=='SEGUIDOR DE LINEA PROFESIONAL'){echo 'selected';}?>>SEGUIDOR DE LINEA PROFESIONAL</option>
             </select> 
             </div>
 
