@@ -19,9 +19,7 @@ include_once '../../assets/template/header.php';
               <a href="report.php" class="btn btn-default btn-custom"> <i class="fas fa-file-excel"></i> Descargar Excel </a>
               <a href="download_logos.php" class="btn btn-default btn-custom"> <i class="fas fa-image"></i> Descargar Logos </a>
               <a href="download_tickets.php" class="btn btn-default btn-custom"> <i class="fas fa-file"></i> Descargar Comprobantes </a><br><br>
-              <br>
-
-              
+             
             
 
               <?php  
@@ -39,6 +37,8 @@ include_once '../../assets/template/header.php';
 
 
               </div>
+
+              <hr>
 
             <table class="table table-bordered" id="table-data" >
   <thead class="thead-dark">
