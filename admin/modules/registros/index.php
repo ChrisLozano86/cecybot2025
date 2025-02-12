@@ -27,6 +27,7 @@ include_once '../../assets/template/header.php';
               if (count($registros) > 0): ?>
 
               <hr>
+              <p> <strong>TOTAL DE EQUIPOS INSCRITOS: &nbsp;<?php echo count($registros) ?></strong> </p>
 
               <div class="estadisticas">
 
@@ -34,8 +35,6 @@ include_once '../../assets/template/header.php';
                 <p>Robot Soccer: <strong><?php echo count($robot_soccer) ?></strong> </p>
                 <p>Seguidor de Línea Educativo: <strong><?php echo count($seguidor_educativo) ?></strong> </p>
                 <p>Seguidor de Línea Profesional: <strong><?php echo count($seguidor_profesional) ?></strong> </p>
-
-
               </div>
 
               <hr>
