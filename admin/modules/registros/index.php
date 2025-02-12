@@ -1,6 +1,10 @@
 <?php
 require_once '../../class/Registro.php';
 $registros = Registro::recuperarTodos(); 
+$minisumo_rc = Registro::recuperarPorCategoria('MINI SUMO RC');
+$robot_soccer = Registro::recuperarPorCategoria('ROBOT SOCCER'); 
+$seguidor_educativo = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA EDUCATIVO'); 
+$seguidor_profesional = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA PROFESIONAL'); 
 include_once '../../assets/template/header.php';
 ?>
 
@@ -16,6 +20,8 @@ include_once '../../assets/template/header.php';
               <a href="download_logos.php" class="btn btn-default btn-custom"> <i class="fas fa-image"></i> Descargar Logos </a>
               <a href="download_tickets.php" class="btn btn-default btn-custom"> <i class="fas fa-file"></i> Descargar Comprobantes </a><br><br>
               <br>
+
+              
             
 
               <?php  
@@ -23,6 +29,16 @@ include_once '../../assets/template/header.php';
               if (count($registros) > 0): ?>
 
               <hr>
+
+              <div class="estadisticas">
+
+                <p>Mini sumo RC: <strong><?php echo count($minisumo_rc); ?></strong> </p>
+                <p>Robot Soccer: <strong><?php echo count($robot_soccer) ?></strong> </p>
+                <p>Seguidor de Línea Educativo: <strong><?php echo count($seguidor_educativo) ?></strong> </p>
+                <p>Seguidor de Línea Profesional: <strong><?php echo count($seguidor_profesional) ?></strong> </p>
+
+
+              </div>
 
             <table class="table table-bordered" id="table-data" >
   <thead class="thead-dark">

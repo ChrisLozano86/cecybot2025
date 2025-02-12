@@ -258,4 +258,15 @@ class Registro {
     }
 
 
+    public static function recuperarPorCategoria($categoria) {
+        $conexion = new Conexion();
+        $consulta = $conexion->prepare('SELECT * FROM ' . self::TABLA . 'WHERE categoria = '.$categoria);
+        $consulta->execute();
+        $registros = $consulta->fetchAll();
+  
+        $conexion = null;
+        return $registros;
+    }
+
+
 }

@@ -100,3 +100,17 @@ box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
   .close-icon:hover{
     color: white;
   }
+
+  .estadisticas {
+    display: flex;
+    gap: 20px; /* Espaciado entre los elementos */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    flex-wrap: wrap; /* Permite que los elementos bajen de línea si no caben */
+}
+
+.estadisticas p {
+    margin: 0;
+    padding: 10px;
+    background: #f4f4f4; /* Color de fondo opcional */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+}
