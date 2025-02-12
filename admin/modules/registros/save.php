@@ -129,7 +129,8 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
             <input class="form-control" type="hidden" name="url_qr" id="url_qr" value="<?php echo $registro->getUrlQr(); ?>">
-            </div>
+            <input class="form-control" type="hidden" name="integrante3" id="integrante3"  value="<?php echo $registro->getIntegrante3(); ?>">
+          </div>
 
             <div class="form-group">
             <label for="url_img">Logo del equipo 
@@ -163,11 +164,6 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="<?php echo $registro->getIntegrante2(); ?>">
             </div>
 
-            
-            <div class="form-group">
-            <label for="integrante2">Integrante 3</label>
-            <input class="form-control" type="text" name="integrante3" id="integrante3"  value="<?php echo $registro->getIntegrante3(); ?>">
-            </div>
 
             <div class="form-group">
               <label for="categoria">Categoria</label>

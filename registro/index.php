@@ -95,7 +95,8 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             <div class="form-group">
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
-            </div>
+            <input class="form-control" type="hidden" name="integrante3" id="integrante3"  value="">
+          </div>
 
             <div class="form-group">
             <label for="url_img">Logo del equipo </label><br>
@@ -127,10 +128,9 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </div>
 
             
-            <div class="form-group">
-            <label for="integrante2">Integrante 3</label>
-            <input class="form-control" type="text" name="integrante3" id="integrante3"  value="">
-            </div>
+            
+          
+            
 
             <div class="form-group">
               <label for="categoria">Categoria <span class="text text-danger">*</span></label>

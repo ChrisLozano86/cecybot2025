@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio | CECYTBOT 2025</title>
-    <!-- Meta Open Graph -->
-  <meta property="og:title" content="Torneo Estatal Robótica en Comonfort | CECYBOT 2025">
-  <meta property="og:description" content="Torneo de Robótica CECYBOT2025">
-  <meta property="og:url" content="https://www.cecybot2025.com">
-  <meta property="og:type" content="website">
+    <meta property="og:title" content="Página de Evento" />
+    <meta property="og:description" content="Información sobre el evento, categorías, reglamentos y ubicación." />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630" />
+    <meta property="og:url" content="https://www.tuevento.com/pagina-evento" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Página de Evento" />
+    <meta name="twitter:description" content="Toda la información sobre nuestro próximo evento." />
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630" />
+    <title>Página de Evento</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -17,7 +21,7 @@
     <style>
       /* Estilo del container */
       .container {
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+        background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -33,16 +37,46 @@
         object-fit: cover;
         z-index: -1;
       }
+
+      /* Animaciones para las tarjetas */
+      .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.1) translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Colores de ejemplo para tarjetas */
+      .card:nth-child(1) {
+        background-color: #ffcccc;
+      }
+      .card:nth-child(2) {
+        background-color: #ccffcc;
+      }
+      .card:nth-child(3) {
+        background-color: #ccccff;
+      }
+      .card:nth-child(4) {
+        background-color: #ffffcc;
+      }
+
       .video-overlay {
         position: relative;
         z-index: 1;
+      }
+
+      /* Scroll suave */
+      html {
+        scroll-behavior: smooth;
       }
     </style>
   </head>
   <body>
     <!-- Video de fondo desde servidor local -->
     <video class="video-background" autoplay muted loop>
-      <source src="admin/assets/video/background.mp4" type="video/mp4">
+      <source src="videos/fondo.mp4" type="video/mp4">
       Tu navegador no soporta la reproducción de videos.
     </video>
 
@@ -50,7 +84,7 @@
       <div class="container" style="max-width: 90%;">
         <!-- Header -->
         <header class="bg-light py-3 text-center">
-          <img src="admin/assets/img/banner1.jpg" style="width: 100%;" alt="CECYBOT 2025">
+          <h1>Banner Publicitario</h1>
         </header>
 
         <!-- Navegación -->
@@ -70,21 +104,33 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Inicio</a>
+                  <a class="nav-link" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Categorías y Reglamentos</a>
+                  <a class="nav-link" href="#categorias">Categorías y Reglamentos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Lugar del Evento</a>
+                  <a class="nav-link" href="#lugar">Lugar del Evento</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+
+        <!-- Sección Inicio -->
+        <section id="inicio" class="my-5">
+          <h2>Bienvenido al Evento</h2>
+          <p>Texto de introducción al evento.</p>
+        </section>
+
+        <!-- Sección Categorías -->
+        <section id="categorias" class="my-5">
+          <h2>Categorías y Reglamentos</h2>
+          <p>Descripción de categorías y reglamentos.</p>
+        </section>
 
         <!-- Tarjetas en columnas -->
         <div class="row text-center my-4">
@@ -127,10 +173,10 @@
         </div>
 
         <!-- Google Maps y Dirección -->
-        <div class="row my-4">
+        <div class="row my-4" id="lugar">
           <div class="col-12 col-md-6">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.8479922020597!2d-100.75781242497752!3d20.716396380855937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842ca9acd1000ee7%3A0x605826b31a6f3d6!2sCECyTE%20Guanajuato%20Plantel%20Comonfort%20I!5e0!3m2!1ses!2smx!4v1739211265427!5m2!1ses!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093945!2d144.9537363156783!3d-37.816279779751595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1fdf3b1%3A0x5045675218ce6e0!2zTWVsYm91cm5lLCBBdXN0cmFsaWE!5e0!3m2!1ses!2ses!4v1618471405976!5m2!1ses!2ses"
               width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
             ></iframe>
           </div>
@@ -142,9 +188,15 @@
           </div>
         </div>
 
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="my-5">
+          <h2>Contacto</h2>
+          <p>Información de contacto para el evento.</p>
+        </section>
+
         <!-- Footer -->
         <footer class="bg-dark text-white text-center py-3 mt-4">
-          <p>&copy; 2025 Torneo Estatal de Robótica | CECYBOT225. CECyTE Guanajuto Plantel Comonfort.</p>
+          <p>&copy; 2025 Evento Ejemplo. Todos los derechos reservados.</p>
         </footer>
       </div>
     </div>

@@ -62,7 +62,7 @@ $institucion = $otraInstitucion;
               $registro->setUrlImagen($rutaDestino); 
             
         } else{
-        $registro->setUrlImagen($url_imagen1);    
+        $registro->setUrlImagen('../../admin/modules/registros/uploads/logos/logo_temporal.jpg');    
       } 
 
 

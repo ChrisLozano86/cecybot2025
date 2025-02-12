@@ -29,6 +29,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
       }
     }
 
+    
     input[type="text"] {
   background: transparent;
   border: none;
