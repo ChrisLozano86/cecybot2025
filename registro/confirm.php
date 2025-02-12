@@ -28,12 +28,12 @@
       <br>
       <p>El registro de su equipo se ha realizado correctamente, se ha enviado un correo electrónico con la información, si el correo electrónico no aparece en su bandeja de entrada, revise en bandeja de spam
         de igual manera en el siguiente botón puede descargar su comprobante de registro</p>
+        <br>
       <a href="search.php?id=<?php echo $id ?>" class="btn btn-info btn-lg">Descargar comprobante de registro</a>
-      <p>Por favor guarde o imprima el comprobante de su registro para cualquier aclaración el día de la compentencia</p>
+      <p>Por favor guarde, imprima o saque captura del comprobante de su registro para cualquier aclaración el día de la compentencia</p>
       <hr>
      <p>¡Nos vemos el día del evento!</p>
      <p>Si tienes alguna duda, contactanos por WhatsApp al número 000-00000 </p>
-     <a href="index.php" class="btn btn-primary">Cerrar</a>
       </div>
 
     </div>
