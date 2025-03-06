@@ -209,14 +209,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </form>
 <!-- Validate -->
 <script src="../admin/assets/js/registro_validate.js"></script> 
-<!-- <script>
-    const form = document.getElementById('registro_form');
-    const loader = document.getElementById('loader');
 
-    form.addEventListener('submit', function (e) {
-      loader.style.visibility = 'visible'; // Mostrar el loader
-    });
-  </script> -->
           </div>
           </div>
           <!-- /.col -->
