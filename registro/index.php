@@ -132,19 +132,19 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </div>
 
             <div class="form-group">
-            <label for="contenido">Coach <span class="text text-danger">*</span></label>
+            <label for="contenido">Nombre del Coach o profesor que te asesora</label>
             <input class="form-control" type="text" name="coach" id="coach" value="">
             <small class="text-danger error-message" id="error-coach"></small>
             </div>  
 
             <div class="form-group">
-            <label for="contenido">Integrante 1 (Líder del Equipo) <span class="text text-danger">*</span></label>
+            <label for="contenido">Nombre del Integrante 1 (Capitán del equipo del Equipo) <span class="text text-danger">*</span></label>
             <input class="form-control" type="text" name="integrante1" id="integrante1" value="">
             <small class="text-danger error-message" id="error-integrante1"></small>
             </div>  
 
             <div class="form-group">
-            <label for="integrante2">Integrante 2</label>
+            <label for="integrante2">Nombre del Integrante 2</label>
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="">
             </div>
 
@@ -197,7 +197,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
             <div class="form-group">
             <label for="url_pago">Comprobante de pago <span class="text text-danger">*</span></label><br>
-            <small>Escanea, toma una foto o captura de pantalla a tu comprobante, voucher o transferencia del pago de la inscripción.</small>
+            <small> Sube tu comprobante de pago o transferencia, puede ser una foto de buena calidad o captura de pantalla en formato JPG, JPEG, PNG, o archivo en formato PDF. (Peso máximo 5MB.) </small>
             <input type="file" class="form-control-file" name="url_pago" id="url_pago">
             <small class="text-danger error-message" id="error-url_pago"></small>
             </div>
@@ -209,14 +209,14 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </form>
 <!-- Validate -->
 <script src="../admin/assets/js/registro_validate.js"></script> 
-<script>
+<!-- <script>
     const form = document.getElementById('registro_form');
     const loader = document.getElementById('loader');
 
     form.addEventListener('submit', function (e) {
       loader.style.visibility = 'visible'; // Mostrar el loader
     });
-  </script>
+  </script> -->
           </div>
           </div>
           <!-- /.col -->
