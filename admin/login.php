@@ -58,8 +58,8 @@ require_once 'class/Usuario.php';
       
 
           <div class="form-group">
-          <label for="email">Correo electrónico</label>
-          <input class="form-control" type="email" name="email" id="email" value="" required>
+          <label for="usuario">Usuario</label>
+          <input class="form-control" type="text" name="email" id="email" value="" required>
           </div>
 
 

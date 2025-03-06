@@ -94,17 +94,17 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>
 
             <div class="form-group">
-            <label for="contenido">Coach</label>
+            <label for="contenido">Nombre del Coach o profesor que te asesora</label>
             <input class="form-control" type="text" name="coach" id="coach" value="<?php echo $registro->getCoach(); ?>" readonly>
             </div>  
 
             <div class="form-group">
-            <label for="contenido">Integrante 1 (Líder del Equipo)</label>
+            <label for="contenido">Nombre del Integrante 1 (Capitán del Equipo)</label>
             <input class="form-control" type="text" name="integrante1" id="integrante1" value="<?php echo $registro->getIntegrante1(); ?>" readonly>
             </div>  
 
             <div class="form-group">
-            <label for="integrante2">integrante 2</label>
+            <label for="integrante2">Nombre del Integrante 2</label>
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="<?php echo $registro->getIntegrante2(); ?>" readonly>
             </div>
 
