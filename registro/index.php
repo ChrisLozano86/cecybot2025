@@ -84,6 +84,27 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
           <img src="../admin/assets/img/banner1.jpg" style="width: 100%;" alt="CECYBOT 2025">
 
           <h2 class="text-center">REGISTRO DE EQUIPOS</h2> <br>
+
+          <p>
+Es importante que antes de realizar su registro debe haber realizadp el pago de inscripción y tener una foto o PDF de su comprobante de pago. 
+Si se realiza una transferencia electrónica de otro banco, deberá subir el comprobante de SPEI, favor de tramitar Comprobante de Pago Elecrónico en <a href="https://www.banxico.org.mx/cep/">banxico.org.mx</a>
+</p>
+<div>
+<p> Datos de pago:</p>
+
+<p>Banco: BBVA Bancomer</p>
+
+<p>No. de cuenta: 010 823 4469</p>
+
+<p>CLABE Intebancaria: 0122 1500 1082 3446 92</p>
+
+<p> Nombre del beneficiario: Nombre de prueba</p>
+
+ <p>Cuota de Inscripción:</p>
+
+ <p>• $200.00 MXN </p>
+
+</div>
       
           <p>Los campos con <span class="text text-danger">*</span> son obligatorios.</p>
             <form action="lib/procesar_registro.php" method="post" id="registro_form" enctype="multipart/form-data" novalidate>
@@ -168,7 +189,8 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
             </div>
 
             <div class="form-group">
-            <label for="tel">Número de contacto <span class="text text-danger">*</span></label>
+            <label for="tel">Número de contacto <span class="text text-danger">*</span></label> <br>
+            <small>A este número se enviarán notificaciones y avisos importantes previos a la competencia vía WhatsApp</small>
             <input class="form-control" type="text" name="tel" id="tel"  value="">
             <small class="text-danger error-message" id="error-tel"></small>
             </div>

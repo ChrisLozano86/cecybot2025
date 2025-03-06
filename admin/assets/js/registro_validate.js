@@ -49,26 +49,25 @@ document.getElementById('registro_form').addEventListener('submit', function(eve
    
 
     // Validar archivo
-    const fileInput2 = document.getElementById('url_pago');
-    if (fileInput2.files.length === 0) {
-      document.getElementById('error-url_pago').textContent = 'Debes subir un archivo.';
-      valid = false;
-    } else {
-      const file = fileInput2.files[0];
-      const allowedExtensions = ['image/jpeg', 'image/png', 'image/jpg'];
-      const maxSize = 5 * 1024 * 1024; // 5 MB
+const fileInput2 = document.getElementById('url_pago');
+if (fileInput2.files.length === 0) {
+  document.getElementById('error-url_pago').textContent = 'Debes subir un archivo.';
+  valid = false;
+} else {
+  const file = fileInput2.files[0];
+  const allowedExtensions = ['image/jpeg', 'image/png', 'image/jpg', 'application/pdf'];
+  const maxSize = 5 * 1024 * 1024; // 5 MB
 
-      if (!allowedExtensions.includes(file.type)) {
-        document.getElementById('error-url_pago').textContent = 'El archivo debe ser una imagen en formato JPG, JPEG o PNG.';
-        valid = false;
-      }
+  if (!allowedExtensions.includes(file.type)) {
+    document.getElementById('error-url_pago').textContent = 'El archivo debe ser una imagen (JPG, JPEG, PNG) o un PDF.';
+    valid = false;
+  }
 
-      if (file.size > maxSize) {
-        document.getElementById('error-url_pago').textContent = 'El archivo debe pesar menos de 5 MB.';
-        valid = false;
-      }
-    }
-
+  if (file.size > maxSize) {
+    document.getElementById('error-url_pago').textContent = 'El archivo debe pesar menos de 5 MB.';
+    valid = false;
+  }
+}
     // Si todo es válido, enviar formulario
     if (valid) {
       this.submit();
