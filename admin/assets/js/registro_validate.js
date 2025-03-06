@@ -8,7 +8,7 @@ document.getElementById('registro_form').addEventListener('submit', function(eve
     document.querySelectorAll('.error-message').forEach(el => el.textContent = '');
 
     // Validar campos requeridos
-    const camposRequeridos = ['nombre_equipo', 'coach', 'integrante1', 'categoria', 'institucionSeleccionada', 'email', 'tel'];
+    const camposRequeridos = ['nombre_equipo', 'integrante1', 'categoria', 'institucionSeleccionada', 'email', 'tel'];
     camposRequeridos.forEach(id => {
       const campo = document.getElementById(id);
       if (!campo.value.trim()) {
@@ -71,5 +71,7 @@ if (fileInput2.files.length === 0) {
     // Si todo es válido, enviar formulario
     if (valid) {
       this.submit();
+      const loader = document.getElementById('loader');
+      loader.style.visibility = 'visible';
     }
   });
