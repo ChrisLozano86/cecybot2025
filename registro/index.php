@@ -98,7 +98,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
 <p>CLABE Intebancaria: 0122 1500 1082 3446 92</p>
 
-<p> Nombre del beneficiario: Nombre de prueba</p>
+<p> Nombre del destinatario: Caja Popular Dr. José Ma. Luis Mora</p>
 
  <p>Cuota de Inscripción:</p>
 
