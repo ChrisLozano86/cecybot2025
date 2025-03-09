@@ -1,6 +1,3 @@
-<?php
- header('Location: registro/index.php');
- ?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
