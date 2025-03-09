@@ -86,7 +86,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
           <h2 class="text-center">REGISTRO DE EQUIPOS</h2> <br>
 
           <p>
-Es importante que antes de realizar su registro debe haber realizadp el pago de inscripción y tener una foto o PDF de su comprobante de pago. 
+Es importante que antes de realizar su registro debe haber realizado el pago de inscripción y tener una foto o PDF de su comprobante de pago. 
 Si se realiza una transferencia electrónica de otro banco, deberá subir el comprobante de SPEI, favor de tramitar Comprobante de Pago Elecrónico en <a href="https://www.banxico.org.mx/cep/">banxico.org.mx</a>
 </p>
 <div>
@@ -102,7 +102,13 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
  <p>Cuota de Inscripción:</p>
 
- <p>• $200.00 MXN </p>
+ <p>• $100.00 MXN (hasta el día 21 de marzo de 2025) </p>
+ <p>• $200.00 MXN (hasta el día 4 de abril de 2025) </p>
+ <p>• $300.00 MXN (hasta el día 18 de abril de 2025) </p>
+ <p>• $400.00 MXN (hasta el día 02 de mayo de 2025) </p>
+ <p>• $500.00 MXN (hasta el día 16 de mayo de 2025) </p>
+
+ <p>En el concepto o motivo de pago coloca el "Nombre de tu equipo"</p>
 
 </div>
       
