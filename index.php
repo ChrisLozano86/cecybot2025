@@ -164,7 +164,7 @@
         <!-- Tarjetas en columnas -->
         <div class="row text-center my-4">
           <div class="col-12 col-md">
-          <a href="https://drive.google.com/file/d/1QEXc7tQGrC-peanF4aSkV65wtIM1prSY/view" class="card-link">
+          <a href="https://drive.google.com/file/d/1QEXc7tQGrC-peanF4aSkV65wtIM1prSY/view" target="_blank" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Mini Sumo RC Profesional</h5>
               <img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC" style="width: 80%; margin-left: 10%;"></a>
@@ -176,7 +176,7 @@
             </div>
           </div>
           <div class="col-12 col-md">
-          <a href="https://drive.google.com/file/d/17jHjUKhDH9pfBwyzb1BbjtGh-0DBAvrl/view" class="card-link">
+          <a href="https://drive.google.com/file/d/17jHjUKhDH9pfBwyzb1BbjtGh-0DBAvrl/view" target="_blank" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Robot Soccer Profesional</h5>
               <img src="admin/assets/img/robot_soccer_pro.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
@@ -188,7 +188,7 @@
           </div>
 
           <div class="col-12 col-md">
-          <a href="https://drive.google.com/file/d/1UsbYQVB_HSbaiKTLMjuZKkNJ7JK8KVt0/view" class="card-link">
+          <a href="https://drive.google.com/file/d/1UsbYQVB_HSbaiKTLMjuZKkNJ7JK8KVt0/view" target="_blank" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Robot Soccer Amateur</h5>
               <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
@@ -199,7 +199,7 @@
           </a>
           </div>
           <div class="col-12 col-md">
-          <a href="https://drive.google.com/file/d/1EEoyfRuiB9q_XBv72y72KZC2qAO541Nq/view" class="card-link">
+          <a href="https://drive.google.com/file/d/1EEoyfRuiB9q_XBv72y72KZC2qAO541Nq/view" target="_blank" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea (Kit Educativo)</h5>
               <img src="admin/assets/img/seguidor_educativo.png" class="card-img-top" alt="Seguidor Línea Educativo" style="width: 70%; margin-left: 15%;">
@@ -210,7 +210,7 @@
           </a>
           </div>
           <div class="col-12 col-md">
-          <a href="https://drive.google.com/file/d/1FLhP34XM4uajd0jiNENu6zYISZZtPQTu/view" class="card-link">
+          <a href="https://drive.google.com/file/d/1FLhP34XM4uajd0jiNENu6zYISZZtPQTu/view" target="_blank" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea Profesional</h5>
               <img src="admin/assets/img/seguidor_pro.png" class="card-img-top" alt="Seguidor Linea Profesional" style="width: 80%; margin-left: 10%;">

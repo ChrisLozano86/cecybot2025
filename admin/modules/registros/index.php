@@ -2,7 +2,8 @@
 require_once '../../class/Registro.php';
 $registros = Registro::recuperarTodos(); 
 $minisumo_rc = Registro::recuperarPorCategoria('MINI SUMO RC');
-$robot_soccer = Registro::recuperarPorCategoria('ROBOT SOCCER'); 
+$robot_soccer_pro = Registro::recuperarPorCategoria('ROBOT SOCCER PROFESIONAL'); 
+$robot_soccer_amateur = Registro::recuperarPorCategoria('ROBOT SOCCER AMATEUR'); 
 $seguidor_educativo = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA EDUCATIVO'); 
 $seguidor_profesional = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA PROFESIONAL'); 
 include_once '../../assets/template/header.php';
@@ -29,7 +30,8 @@ include_once '../../assets/template/header.php';
               <div class="estadisticas">
 
                 <p>Mini sumo RC: <strong><?php echo count($minisumo_rc); ?></strong> </p>
-                <p>Robot Soccer: <strong><?php echo count($robot_soccer) ?></strong> </p>
+                <p>Robot Soccer Profesional: <strong><?php echo count($robot_soccer_pro) ?></strong> </p>
+                <p>Robot Soccer Amateur: <strong><?php echo count($robot_soccer_amateur) ?></strong> </p>
                 <p>Seguidor de Línea Educativo: <strong><?php echo count($seguidor_educativo) ?></strong> </p>
                 <p>Seguidor de Línea Profesional: <strong><?php echo count($seguidor_profesional) ?></strong> </p>
               </div>
