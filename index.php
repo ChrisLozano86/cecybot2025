@@ -69,6 +69,24 @@
         background-color: #005B97;
         
       }
+
+      .hero-section {
+        text-align: center;
+        padding: 50px 0;
+      }
+      .hero-section img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      @media (min-width: 768px) {
+        .hero-section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
     </style>
   </head>
   <body>
@@ -118,21 +136,17 @@
         </nav>
 
         <!-- Sección Inicio -->
-        <section id="inicio" class="row my-5">
-          <div class="col-12">
+        <section id="inicio" class="my-5">
           <h2>Bases de la competencia</h2>
           <p>El CECyTE Guanajuato Unidad Académica COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar el día <span class="font-weight-bold">21 de mayo de 2025 </span> en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) </p>
           <a href="bases/Bases_CECyBOT_2025.pdf" target="_blank"> <p class="font-weight-bold"> <img src="admin/assets/img/bases.png" height="150"  width="100" alt="Bases CECYBOT 2025">DESCARGA AQUI LAS BASES DEL EVENTO </p> </a>       
-          </div>
         </section>
 
-        <!-- Sección Inicio -->
-        <section class="my-5">
-          <div style="width: 70%; margin-left: 15%;">
-          <h2>¡Estas listo para el reto!</h2>
-          <img src="admin/assets/img/logo.png" alt="CECYBOT 2025" height="180"  width="130"> <a href="registro/index.php" class="btn btn-primary btn-lg">  REGISTRAR EQUIPO  </a>      
-          </div>
-        </section>
+        <!-- Sección Hero -->
+      <section class="hero-section">
+        <img src="admin/assets/img/logo.png" alt="CECYBOT 2025">
+        <button class="btn btn-primary btn-lg mt-3">REGISTRAR EQUIPO</button>
+      </section>
 
         <!-- Sección Categorías -->
         <section id="categorias" class="my-5">
