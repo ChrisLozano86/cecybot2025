@@ -179,7 +179,7 @@
           <a href="https://drive.google.com/file/d/17jHjUKhDH9pfBwyzb1BbjtGh-0DBAvrl/view" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Robot Soccer Profesional</h5>
-              <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
+              <img src="admin/assets/img/robot_soccer_pro.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
               <div class="card-body">
                 <p class="card-text"> ¡Acción y precisión en cada jugada! Diseña el mejor equipo y conquista la cancha.</p>
               </div>

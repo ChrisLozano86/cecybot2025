@@ -166,7 +166,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
               <option value="MINI SUMO RC">Mini Sumo RC Profesional</option>
               <option value="ROBOT SOCCER PROFESIONAL">Robot Soccer Profesional</option>
               <option value="ROBOT SOCCER AMATEUR">Robot Soccer Amateur</option>
-              <option value="SEGUIDOR DE LINEA EDUCATIVO">Seguidor de Línea Educativo</option>
+              <option value="SEGUIDOR DE LINEA EDUCATIVO">Seguidor de Línea (Kit Educativo)</option>
               <option value="SEGUIDOR DE LINEA PROFESIONAL">Seguidor de Línea Profesional</option>
             </select> 
             <small class="text-danger error-message" id="error-categoria"></small>
