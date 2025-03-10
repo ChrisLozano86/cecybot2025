@@ -12,7 +12,7 @@
     <meta name="twitter:title" content="Página de Evento" />
     <meta name="twitter:description" content="Toda la información sobre nuestro próximo evento." />
     <meta name="twitter:image" content="https://via.placeholder.com/1200x630" />
-    <title>Página de Evento</title>
+    <title>CECYBOT 2025</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -195,7 +195,8 @@
 
         <!-- Footer -->
         <footer class="bg-dark text-white text-center py-3 mt-4">
-          <p>&copy; 2025 Evento Ejemplo. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Primer Torneo de Robótica y Simposio. CECYBOT 2025</p>
+          <p> CECYTEG Unidad Académica Comonfort. Todos los derechos reservados.</p>
         </footer>
       </div>
     </div>
