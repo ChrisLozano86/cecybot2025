@@ -45,6 +45,7 @@
       .card {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         color: white;
+        margin-bottom: 20px;
       }
 
       .card:hover {
@@ -75,7 +76,7 @@
       <div class="container" style="max-width: 90%;">
         <!-- Header -->
         <header class="bg-light py-3 text-center">
-          <h1>Banner Publicitario</h1>
+        <img src="admin/assets/img/banner1.jpg" style="width: 100%;" alt="CECYBOT 2025">
         </header>
 
         <!-- Navegación -->
@@ -118,7 +119,7 @@
         <section id="inicio" class="my-5">
           <h2>Bienvenido</h2>
           <p>El CECyTE Guanajuato Unidad COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar el día <span class="font-weight-bold">21 de mayo de 2025 </span> en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) </p>
-          <p>Descarga las bases del evento en el siguiente link: <a href="admin/assets/files/Bases_CECyBOT_2025.pdf" download="Bases_CECyBOT_2025.pdf"> Bases del evento</a></p>        
+          <p>Descarga aquí las bases del evento <a href="admin/assets/files/Bases_CECyBOT_2025.pdf" download="Bases_CECyBOT_2025.pdf"> <img src="admin/assets/img/bases.png" style="width: 100px; height: auto;"> </a></p>        
         </section>
 
         <!-- Sección Categorías -->
@@ -180,9 +181,8 @@
             <div style="margin-top: 20px;">
             <h4>Salón Quinta Caporales</h4>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
-            <img src="admin/assets/img/location.png" style="width: 20%; height: auto; margin-left: 40%;">
             </div>
-          
+            <img src="admin/assets/img/location.png" style="width: 20%; height: auto; margin-left: 40%;">
           </div>
         </div>
 
