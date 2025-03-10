@@ -132,7 +132,7 @@
           <div class="col-12 col-md">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Mini Sumo RC</h5>
-              <img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC">
+              <img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC" style="width: 80%; margin-left: 10%;">
               <div class="card-body">
                 
                 <p class="card-text">¡Fuerza, estrategia y velocidad! ¿Tu robot tiene lo necesario para dominar el ring?.</p>
@@ -142,7 +142,7 @@
           <div class="col-12 col-md">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Robot Soccer</h5>
-              <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer">
+              <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
               <div class="card-body">
                 <p class="card-text"> ¡Acción y precisión en cada jugada! Diseña el mejor equipo y conquista la cancha.</p>
               </div>
@@ -151,7 +151,7 @@
           <div class="col-12 col-md">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea Educativo</h5>
-              <img src="admin/assets/img/seguidor_educativo.png" class="card-img-top" alt="Seguidor Línea Educativo">
+              <img src="admin/assets/img/seguidor_educativo.png" class="card-img-top" alt="Seguidor Línea Educativo" style="width: 80%; margin-left: 10%;">
               <div class="card-body">   
                 <p class="card-text">¡Velocidad y precisión al límite! Solo los más rápidos y exactos llegarán a la meta.</p>
               </div>
