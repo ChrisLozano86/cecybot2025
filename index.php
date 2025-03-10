@@ -95,7 +95,20 @@
     </style>
   </head>
   <body>
-    <div class="video-overlay">
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Imagen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="admin/assets/img/cartel_cecybot2025.jpg" class="img-fluid" alt="Cartel CECYBOT 2025">
+                </div>
+            </div>
+        </div>
+    </div>
       <div class="container" style="max-width: 90%;">
         <!-- Header -->
         <header class="bg-light py-3 text-center">
@@ -255,10 +268,16 @@
           <p>&copy; 2025 Primer Torneo de Robótica y Simposio. CECYBOT 2025</p>
           <p> CECYTEG Unidad Académica Comonfort. Todos los derechos reservados.</p>
         </footer>
-      </div>
+      
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+            myModal.show();
+        });
+    </script>
   </body>
 </html>
