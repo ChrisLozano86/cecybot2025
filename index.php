@@ -97,14 +97,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="registro/index.php" target="_blank">¡REGISTRA TU EQUIPO!</a>
+                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#inicio">Bases de la competencia</a>
+                  <a class="nav-link" href="#inicio">Bases de la Competencia</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#categorias">Categorías y Reglamentos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#lugar">Lugar del Evento</a>
+                  <a class="nav-link" href="#lugar">Lugar y Fecha del Evento</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contacto">Contacto</a>
@@ -117,14 +120,14 @@
         <!-- Sección Inicio -->
         <section id="inicio" class="my-5">
           <h2>Bases de la competencia</h2>
-          <p>El CECyTE Guanajuato Unidad COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar el día <span class="font-weight-bold">21 de mayo de 2025 </span> en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) </p>
-          <a href="admin/assets/files/Bases_CECyBOT_2025.pdf" download="Bases_CECyBOT_2025.pdf"> <p class="font-weight-bold">Descarga aquí las bases del evento  <img src="admin/assets/img/bases.png" style="width: 100px; height: auto;"> </p> </a>       
+          <p>El CECyTE Guanajuato Unidad Académica COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar el día <span class="font-weight-bold">21 de mayo de 2025 </span> en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) </p>
+          <a href="admin/assets/files/Bases_CECyBOT_2025.pdf" target="_blank"> <p class="font-weight-bold">Descarga aquí las bases del evento  <img src="admin/assets/img/bases.png" style="width: 100px; height: auto;"> </p> </a>       
         </section>
 
         <!-- Sección Categorías -->
         <section id="categorias" class="my-5">
           <h2>Categorías y Reglamentos</h2>
-          <p>Consulta y descarga los reglamentos de cada categoría,</p>
+          <p>Consulta y descarga los reglamentos de cada categoría.</p>
         </section>
 
         <!-- Tarjetas en columnas -->
@@ -181,6 +184,8 @@
           <div class="col-12 col-md-4 text-center">
             <div style="margin-top: 20px;">
             <h4>Salón Quinta Caporales</h4>
+            <p>21 de Mayo de 2025</p>
+            <p>Arranque del evento y registro: 8:00am - 10:00am</p>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
             </div>
             <img src="admin/assets/img/location.png" style="width: 20%; height: auto;">
