@@ -144,7 +144,7 @@
         <section id="inicio" class="my-5">
           <h2>Bases de la competencia</h2>
           <p>El CECyTE Guanajuato Unidad Académica COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar el día <span class="font-weight-bold">21 de mayo de 2025 </span> en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) </p>
-          <a href="bases/Bases_CECyBOT_2025.pdf" target="_blank" class="btn btn-secondary btn-lg"> <img src="admin/assets/img/bases.png" alt="CECYBOT 2025" width="40" height="55">  DESCARGA LAS BASES DEL EVENTO  </a>       
+          <a href="bases/Bases_CECyBOT_2025.pdf" target="_blank" class="btn btn-secondary btn-lg"> <img src="admin/assets/img/bases.png" alt="CECYBOT 2025" width="40" height="55">  DESCARGAR LAS BASES DEL EVENTO  </a>       
         </section>
 
          <!-- Sección Hero -->
@@ -164,9 +164,9 @@
         <!-- Tarjetas en columnas -->
         <div class="row text-center my-4">
           <div class="col-12 col-md">
-          <a href="https://drive.google.com/file/d/1QEXc7tQGrC-peanF4aSkV65wtIM1prSY/view?usp=drive_link" class="card-link">
+          <a href="https://drive.google.com/file/d/1QEXc7tQGrC-peanF4aSkV65wtIM1prSY/view" class="card-link">
             <div class="card">
-            <h5 class="card-title" style="padding-top: 20px;">Mini Sumo RC</h5>
+            <h5 class="card-title" style="padding-top: 20px;">Mini Sumo RC Profesional</h5>
               <img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC" style="width: 80%; margin-left: 10%;"></a>
               <div class="card-body">
                 
@@ -176,24 +176,41 @@
             </div>
           </div>
           <div class="col-12 col-md">
+          <a href="https://drive.google.com/file/d/17jHjUKhDH9pfBwyzb1BbjtGh-0DBAvrl/view" class="card-link">
             <div class="card">
-            <h5 class="card-title" style="padding-top: 20px;">Robot Soccer</h5>
+            <h5 class="card-title" style="padding-top: 20px;">Robot Soccer Profesional</h5>
               <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
               <div class="card-body">
                 <p class="card-text"> ¡Acción y precisión en cada jugada! Diseña el mejor equipo y conquista la cancha.</p>
               </div>
             </div>
+          </a>
+          </div>
+
+          <div class="col-12 col-md">
+          <a href="https://drive.google.com/file/d/1UsbYQVB_HSbaiKTLMjuZKkNJ7JK8KVt0/view" class="card-link">
+            <div class="card">
+            <h5 class="card-title" style="padding-top: 20px;">Robot Soccer Amateur</h5>
+              <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer" style="width: 80%; margin-left: 10%;">
+              <div class="card-body">
+                <p class="card-text"> ¡Acción y precisión en cada jugada! Diseña el mejor equipo y conquista la cancha.</p>
+              </div>
+            </div>
+          </a>
           </div>
           <div class="col-12 col-md">
+          <a href="https://drive.google.com/file/d/1EEoyfRuiB9q_XBv72y72KZC2qAO541Nq/view" class="card-link">
             <div class="card">
-            <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea Educativo</h5>
+            <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea (Kit Educativo)</h5>
               <img src="admin/assets/img/seguidor_educativo.png" class="card-img-top" alt="Seguidor Línea Educativo" style="width: 70%; margin-left: 15%;">
               <div class="card-body">   
                 <p class="card-text">¡Velocidad y precisión al límite! Solo los más rápidos y exactos llegarán a la meta.</p>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-12 col-md">
+          <a href="https://drive.google.com/file/d/1FLhP34XM4uajd0jiNENu6zYISZZtPQTu/view" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea Profesional</h5>
               <img src="admin/assets/img/seguidor_pro.png" class="card-img-top" alt="Seguidor Linea Profesional" style="width: 80%; margin-left: 10%;">
@@ -201,6 +218,7 @@
                 <p class="card-text">¡Velocidad, control y máxima precisión! Solo los mejores trazan el camino hacia la victoria.</p>
               </div>
             </div>
+          </a>
           </div>
         </div>
 

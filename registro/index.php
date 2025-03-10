@@ -163,8 +163,9 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
               <label for="categoria">Categoria <span class="text text-danger">*</span></label>
             <select name="categoria" id="categoria" class="form-control" style="width: 80%;">
             <option value="">Selecciona una categoría</option>
-              <option value="MINI SUMO RC">Mini Sumo RC</option>
-              <option value="ROBOT SOCCER">Robot Soccer</option>
+              <option value="MINI SUMO RC">Mini Sumo RC Profesional</option>
+              <option value="ROBOT SOCCER PROFESIONAL">Robot Soccer Profesional</option>
+              <option value="ROBOT SOCCER AMATEUR">Robot Soccer Amateur</option>
               <option value="SEGUIDOR DE LINEA EDUCATIVO">Seguidor de Línea Educativo</option>
               <option value="SEGUIDOR DE LINEA PROFESIONAL">Seguidor de Línea Profesional</option>
             </select> 
