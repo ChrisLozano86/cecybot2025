@@ -53,16 +53,19 @@
 
       /* Colores de ejemplo para tarjetas */
       .card:nth-child(1) {
-        background-color: #ffcccc;
+        background-color: #005B97;
       }
       .card:nth-child(2) {
-        background-color: #ccffcc;
+        background-color: #005B97;
+        color: white;
       }
       .card:nth-child(3) {
-        background-color: #ccccff;
+        background-color: #005B97;
+        color: white;
       }
       .card:nth-child(4) {
-        background-color: #ffffcc;
+        background-color: #005B97;
+        color: white;
       }
     </style>
   </head>
@@ -166,16 +169,14 @@
         <!-- Google Maps y Dirección -->
         <div>  <h2><img src="admin/assets/img/location.png" style="height: 80px; width: auto;">Lugar del evento</h2></div>
         <div class="row my-4" id="lugar">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-8">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.7470952180643!2d-100.75585082529375!3d20.72049199829621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842ca9b299c9635d%3A0xb1ffb8f576e1ffc3!2sSalon%20Quinta%20Caporales!5e0!3m2!1ses-419!2smx!4v1741566480979!5m2!1ses-419!2smx"
-              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
             ></iframe>
           </div>
-          <div class="col-12 col-md-6 d-flex align-items-center">
-            <h4>Salón Quinta Caporales</h4>
-            <br>
-            <br>
+          <div class="col-12 col-md-4 d-flex align-items-center">
+            <p>Salón Quinta Caporales</p>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
           </div>
         </div>
