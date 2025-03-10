@@ -44,6 +44,7 @@
       /* Animaciones para las tarjetas */
       .card {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: white;
       }
 
       .card:hover {
@@ -57,15 +58,15 @@
       }
       .card:nth-child(2) {
         background-color: #005B97;
-        color: white;
+        
       }
       .card:nth-child(3) {
         background-color: #005B97;
-        color: white;
+        
       }
       .card:nth-child(4) {
         background-color: #005B97;
-        color: white;
+        
       }
     </style>
   </head>
@@ -175,8 +176,8 @@
               width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
             ></iframe>
           </div>
-          <div class="col-12 col-md-4 d-flex align-items-center">
-            <p>Salón Quinta Caporales</p>
+          <div class="col-12 col-md-4">
+            <h4>Salón Quinta Caporales</h4>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
           </div>
         </div>
