@@ -67,12 +67,6 @@
     </style>
   </head>
   <body>
-    <!-- Video de fondo desde servidor local -->
-    <video class="video-background" autoplay muted loop>
-      <source src="videos/fondo.mp4" type="video/mp4">
-      Tu navegador no soporta la reproducción de videos.
-    </video>
-
     <div class="video-overlay">
       <div class="container" style="max-width: 90%;">
         <!-- Header -->
@@ -135,8 +129,8 @@
             <div class="card">
               <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 1">
               <div class="card-body">
-                <h5 class="card-title">Título 1</h5>
-                <p class="card-text">Descripción breve de la tarjeta 1.</p>
+                <h5 class="card-title">Mini Sumo RC</h5>
+                <p class="card-text">¡Fuerza, estrategia y velocidad! ¿Tu robot tiene lo necesario para dominar el ring?.</p>
               </div>
             </div>
           </div>
@@ -144,8 +138,8 @@
             <div class="card">
               <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 2">
               <div class="card-body">
-                <h5 class="card-title">Título 2</h5>
-                <p class="card-text">Descripción breve de la tarjeta 2.</p>
+                <h5 class="card-title">Robot Soccer</h5>
+                <p class="card-text"> ¡Acción y precisión en cada jugada! Diseña el mejor equipo y conquista la cancha.</p>
               </div>
             </div>
           </div>
@@ -153,8 +147,8 @@
             <div class="card">
               <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 3">
               <div class="card-body">
-                <h5 class="card-title">Título 3</h5>
-                <p class="card-text">Descripción breve de la tarjeta 3.</p>
+                <h5 class="card-title">Seguidor de Línea Educativo</h5>
+                <p class="card-text">¡Velocidad y precisión al límite! Solo los más rápidos y exactos llegarán a la meta.</p>
               </div>
             </div>
           </div>
@@ -162,26 +156,25 @@
             <div class="card">
               <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 4">
               <div class="card-body">
-                <h5 class="card-title">Título 4</h5>
-                <p class="card-text">Descripción breve de la tarjeta 4.</p>
+                <h5 class="card-title">Seguidor de Línea Profesional</h5>
+                <p class="card-text">¡Velocidad, control y máxima precisión! Solo los mejores trazan el camino hacia la victoria.</p>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Google Maps y Dirección -->
+        <div> <img src="admin/assets/img/location.png" style="height: 80px; width: auto;"> Lugar del evento</div>
         <div class="row my-4" id="lugar">
           <div class="col-12 col-md-6">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093945!2d144.9537363156783!3d-37.816279779751595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1fdf3b1%3A0x5045675218ce6e0!2zTWVsYm91cm5lLCBBdXN0cmFsaWE!5e0!3m2!1ses!2ses!4v1618471405976!5m2!1ses!2ses"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.7470952180643!2d-100.75585082529375!3d20.72049199829621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842ca9b299c9635d%3A0xb1ffb8f576e1ffc3!2sSalon%20Quinta%20Caporales!5e0!3m2!1ses-419!2smx!4v1741566480979!5m2!1ses-419!2smx"
               width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
             ></iframe>
           </div>
           <div class="col-12 col-md-6 d-flex align-items-center">
-            <p>
-              Dirección del evento: Calle Falsa 123, Colonia Ejemplo, Ciudad de
-              Prueba, CP 12345.
-            </p>
+            <h4>Salón Quinta Caporales</h4>
+            <p>San Francisco, 38204 Comonfort, Gto.</p>
           </div>
         </div>
 
