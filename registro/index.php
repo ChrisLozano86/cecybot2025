@@ -90,7 +90,7 @@ Es importante que antes de realizar su registro debe haber realizado el pago de 
 Si se realiza una transferencia electrónica de otro banco, deberá subir el comprobante de SPEI, favor de tramitar Comprobante de Pago Elecrónico en <a href="https://www.banxico.org.mx/cep/">banxico.org.mx</a>
 </p>
 <div>
-<p> Datos de pago:</p>
+<p> <span class="font-weight-bold"> Datos de pago: </span></p>
 
 <p>Banco: BBVA Bancomer</p>
 
@@ -100,7 +100,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
 <p> Nombre del destinatario: Caja Popular Dr. José Ma. Luis Mora</p>
 
- <p>Cuota de Inscripción:</p>
+ <p> <span class="font-weight-bold">Cuota de Inscripción: </span></p>
 
  <p>• $100.00 MXN (hasta el día 21 de marzo de 2025) </p>
  <p>• $200.00 MXN (hasta el día 4 de abril de 2025) </p>

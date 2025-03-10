@@ -126,7 +126,7 @@
         <!-- Sección Inicio -->
         <section id="inicio" class="my-5">
           <h2>Bienvenido</h2>
-          <p>El CECyTE Guanajuato Plantel COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) en las siguientes</p>
+          <p>El CECyTE Guanajuato Unidad COMONFORT tiene la intención de crear y fomentar el interés en el amplio mundo de la robótica y la electrónica en todo el alumnado de nuestro plantel así como a los estudiantes de nuestro municipio y municipios aledaños, por lo que estamos invitándolos a participar el día <span class="font-weight-bold">21 de mayo de 2025 </span> en el Primer Torneo de Robótica y Simposium (CECyBOT Comonfort 2025) en las siguientes</p>
         </section>
 
         <!-- Sección Categorías -->
