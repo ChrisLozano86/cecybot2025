@@ -161,8 +161,8 @@
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea Profesional</h5>
               <img src="admin/assets/img/seguidor_pro.png" class="card-img-top" alt="Seguidor Linea Profesional" style="width: 80%; margin-left: 10%;">
-              <div class="card-body" style="padding-top: -40px;">
-                <p class="card-text">¡Velocidad, control y máxima precisión! Solo los mejores trazan el camino hacia la victoria.</p>
+              <div class="card-body">
+                <p class="card-text" style="padding-top: -40px;">¡Velocidad, control y máxima precisión! Solo los mejores trazan el camino hacia la victoria.</p>
               </div>
             </div>
           </div>
