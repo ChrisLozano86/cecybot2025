@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Página de Evento" />
-    <meta property="og:description" content="Información sobre el evento, categorías, reglamentos y ubicación." />
-    <meta property="og:image" content="https://via.placeholder.com/1200x630" />
-    <meta property="og:url" content="https://www.tuevento.com/pagina-evento" />
+    <meta property="og:title" content="Primer Torneo de Robótica y Simposio" />
+    <meta property="og:description" content="CECYBOT 2025 | Unidad Académica Comonfort" />
+    <meta property="og:image" content="https://cecybot2025.com/admin/assets/img/logo.png" />
+    <meta property="og:url" content="https://cecybot2025.com/" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Página de Evento" />
-    <meta name="twitter:description" content="Toda la información sobre nuestro próximo evento." />
-    <meta name="twitter:image" content="https://via.placeholder.com/1200x630" />
+    <meta name="twitter:title" content="Primer Torneo de Robótica y Simposio" />
+    <meta name="twitter:description" content="CECYBOT 2025 | Unidad Académica Comonfort" />
+    <meta name="twitter:image" content="https://cecybot2025.com/admin/assets/img/logo.png" />
     <title>CECYBOT 2025</title>
     <!-- Bootstrap CSS -->
     <link
