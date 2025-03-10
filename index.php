@@ -144,8 +144,9 @@
 
         <!-- Sección Hero -->
       <section class="hero-section">
-        <img src="admin/assets/img/logo.png" alt="CECYBOT 2025">
-        <button class="btn btn-primary btn-lg mt-3">REGISTRAR EQUIPO</button>
+        <h2>¿Estás listo para el reto?</h2>
+        <img src="admin/assets/img/logo.png" alt="CECYBOT 2025" style="width: 20%;">
+        <a href="registro/index.php" class="btn btn-primary btn-lg mt-3">REGISTRAR EQUIPO</a>
       </section>
 
         <!-- Sección Categorías -->
