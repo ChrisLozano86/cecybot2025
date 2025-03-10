@@ -70,6 +70,11 @@
         
       }
 
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+
       .hero-section {
         text-align: center;
         padding: 50px 0;
