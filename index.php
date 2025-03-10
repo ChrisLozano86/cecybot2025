@@ -90,7 +90,7 @@
               aria-controls="navbarNav"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              
+              style="color: white;"
             >
               <span class="navbar-toggler-icon" style="color: white;"> </span>
               Menú
