@@ -111,7 +111,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
  <p>En el concepto o motivo de pago coloca el "Nombre de tu equipo"</p>
 
 </div>
-      
+      <hr>
           <p>Los campos con <span class="text text-danger">*</span> son obligatorios.</p>
             <form action="lib/procesar_registro.php" method="post" id="registro_form" enctype="multipart/form-data" novalidate>
 
