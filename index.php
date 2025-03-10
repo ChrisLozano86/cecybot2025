@@ -90,9 +90,10 @@
               aria-controls="navbarNav"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              style="color: white;"
+              
             >
-              <span class="navbar-toggler-icon"> Menú </span>
+              <span class="navbar-toggler-icon" style="color: white;"> </span>
+              Menú
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
