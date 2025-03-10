@@ -98,9 +98,6 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#inicio">Inicio</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="#inicio">Bases de la competencia</a>
                 </li>
                 <li class="nav-item">
@@ -134,27 +131,28 @@
         <div class="row text-center my-4">
           <div class="col-12 col-md">
             <div class="card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 1">
+            <h5 class="card-title" style="padding-top: 20px;">Mini Sumo RC</h5>
+              <img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC">
               <div class="card-body">
-                <h5 class="card-title">Mini Sumo RC</h5>
+                
                 <p class="card-text">¡Fuerza, estrategia y velocidad! ¿Tu robot tiene lo necesario para dominar el ring?.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md">
             <div class="card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 2">
+            <h5 class="card-title" style="padding-top: 20px;">Robot Soccer</h5>
+              <img src="admin/assets/img/robot_soccer.png" class="card-img-top" alt="Robot Soccer">
               <div class="card-body">
-                <h5 class="card-title">Robot Soccer</h5>
                 <p class="card-text"> ¡Acción y precisión en cada jugada! Diseña el mejor equipo y conquista la cancha.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md">
             <div class="card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 3">
-              <div class="card-body">
-                <h5 class="card-title">Seguidor de Línea Educativo</h5>
+            <h5 class="card-title" style="padding-top: 20px;">Seguidor de Línea Educativo</h5>
+              <img src="admin/assets/img/seguidor_educativo.png" class="card-img-top" alt="Seguidor Línea Educativo">
+              <div class="card-body">   
                 <p class="card-text">¡Velocidad y precisión al límite! Solo los más rápidos y exactos llegarán a la meta.</p>
               </div>
             </div>
