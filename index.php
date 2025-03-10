@@ -159,13 +159,15 @@
         <!-- Tarjetas en columnas -->
         <div class="row text-center my-4">
           <div class="col-12 col-md">
+          <a href="https://drive.google.com/file/d/1QEXc7tQGrC-peanF4aSkV65wtIM1prSY/view?usp=drive_link" class="card-link">
             <div class="card">
             <h5 class="card-title" style="padding-top: 20px;">Mini Sumo RC</h5>
-              <a href="https://drive.google.com/file/d/1QEXc7tQGrC-peanF4aSkV65wtIM1prSY/view?usp=drive_link"><img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC" style="width: 80%; margin-left: 10%;"></a>
+              <img src="admin/assets/img/mini_sumo.png" class="card-img-top" alt="Mini Sumo RC" style="width: 80%; margin-left: 10%;"></a>
               <div class="card-body">
                 
                 <p class="card-text">¡Fuerza, estrategia y velocidad! ¿Tu robot tiene lo necesario para dominar el ring?.</p>
               </div>
+            </a>
             </div>
           </div>
           <div class="col-12 col-md">
