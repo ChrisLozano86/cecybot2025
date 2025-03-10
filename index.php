@@ -164,7 +164,7 @@
         </div>
 
         <!-- Google Maps y Dirección -->
-        <div> <img src="admin/assets/img/location.png" style="height: 80px; width: auto;"> Lugar del evento</div>
+        <div> <img src="admin/assets/img/location.png" style="height: 80px; width: auto;"> <h2>Lugar del evento</h2></div>
         <div class="row my-4" id="lugar">
           <div class="col-12 col-md-6">
             <iframe
@@ -174,6 +174,7 @@
           </div>
           <div class="col-12 col-md-6 d-flex align-items-center">
             <h4>Salón Quinta Caporales</h4>
+            <br>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
           </div>
         </div>
