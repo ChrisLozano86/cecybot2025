@@ -126,8 +126,10 @@
 
         <!-- Sección Inicio -->
         <section class="my-5">
+          <div style="width: 40%; margin-left: 30%;">
           <h2>¡Estas listo para el reto!</h2>
           <img src="admin/assets/img/logo.png" alt="CECYBOT 2025" width="20%"> <a href="registro/index.php" class="btn btn-primary btn-lg">  REGISTRAR EQUIPO  </a>      
+          </div>
         </section>
 
         <!-- Sección Categorías -->
