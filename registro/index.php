@@ -96,7 +96,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
 <p>No. de cuenta: 010 823 4469</p>
 
-<p>CLABE Intebancaria: 0122 1500 1082 3446 92</p>
+<p>CLABE Interbancaria: 0122 1500 1082 3446 92</p>
 
 <p> Nombre del destinatario: Caja Popular Dr. José Ma. Luis Mora</p>
 
