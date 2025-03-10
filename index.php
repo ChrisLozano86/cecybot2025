@@ -72,7 +72,7 @@
 
       a {
         text-decoration: none !important;
-        color: inherit !important;
+        color: white;
       }
 
       .hero-section {
