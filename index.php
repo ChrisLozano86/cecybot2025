@@ -125,7 +125,7 @@
         <!-- Sección Categorías -->
         <section id="categorias" class="my-5">
           <h2>Categorías y Reglamentos</h2>
-          <p>Descripción de categorías y reglamentos.</p>
+          <p>Consulta y descarga los reglamentos de cada categoría,</p>
         </section>
 
         <!-- Tarjetas en columnas -->
@@ -169,8 +169,9 @@
         </div>
 
         <!-- Google Maps y Dirección -->
-        <div>  <h2>Lugar del evento</h2></div>
+        
         <div class="row my-4" id="lugar">
+        <h2>Lugar del evento</h2>
           <div class="col-12 col-md-8">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.7470952180643!2d-100.75585082529375!3d20.72049199829621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842ca9b299c9635d%3A0xb1ffb8f576e1ffc3!2sSalon%20Quinta%20Caporales!5e0!3m2!1ses-419!2smx!4v1741566480979!5m2!1ses-419!2smx"
@@ -182,7 +183,7 @@
             <h4>Salón Quinta Caporales</h4>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
             </div>
-            <img src="admin/assets/img/location.png" style="width: 20%; height: auto; margin-left: 40%;">
+            <img src="admin/assets/img/location.png" style="width: 20%; height: auto;">
           </div>
         </div>
 
