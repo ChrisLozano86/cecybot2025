@@ -176,10 +176,13 @@
               width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
             ></iframe>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 text-center">
+            <div style="margin-top: 20px;">
             <h4>Salón Quinta Caporales</h4>
             <p>San Francisco, 38204 Comonfort, Gto.</p>
-            <img src="admin/assets/img/location.png" style="width: 20%; height: auto; margin-left: 40%; ">
+            <img src="admin/assets/img/location.png" style="width: 20%; height: auto; margin-left: 40%;">
+            </div>
+          
           </div>
         </div>
 
