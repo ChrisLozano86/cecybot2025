@@ -19,6 +19,11 @@
       rel="stylesheet"
     />
     <style>
+      /* Estilo del fondo general */
+      body {
+        background-color: #005B97;
+      }
+
       /* Estilo del container */
       .container {
         background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
@@ -27,15 +32,13 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
-      /* Estilo de video de fondo */
-      .video-background {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
+      /* Estilo de la barra de navegación */
+      .navbar {
+        background-color: #005B97 !important;
+      }
+
+      .navbar .nav-link, .navbar-toggler-icon {
+        color: white !important;
       }
 
       /* Animaciones para las tarjetas */
@@ -60,16 +63,6 @@
       }
       .card:nth-child(4) {
         background-color: #ffffcc;
-      }
-
-      .video-overlay {
-        position: relative;
-        z-index: 1;
-      }
-
-      /* Scroll suave */
-      html {
-        scroll-behavior: smooth;
       }
     </style>
   </head>
