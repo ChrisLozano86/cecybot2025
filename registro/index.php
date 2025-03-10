@@ -87,7 +87,7 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
           <p>
 Es importante que antes de realizar su registro debe haber realizado el pago de inscripción y tener una foto o PDF de su comprobante de pago. 
-Si se realiza una transferencia electrónica de otro banco, deberá subir el comprobante de SPEI, favor de tramitar Comprobante de Pago Elecrónico en <a href="https://www.banxico.org.mx/cep/">banxico.org.mx</a>
+Si se realiza una transferencia electrónica de otro banco, deberá subir el comprobante de SPEI, favor de tramitar Comprobante de Pago Electrónico en <a href="https://www.banxico.org.mx/cep/">banxico.org.mx</a>
 </p>
 <div>
 <p> <span class="font-weight-bold"> Datos de pago: </span></p>
@@ -108,7 +108,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
  <p>• $400.00 MXN (hasta el día 02 de mayo de 2025) </p>
  <p>• $500.00 MXN (hasta el día 16 de mayo de 2025) </p>
 
- <p>En el concepto o motivo de pago coloca el "Nombre de tu equipo"</p>
+ <p>En el concepto o motivo de pago coloca el "Nombre de tu equipo" que con el que será registrado.</p>
 
 </div>
       <hr>
