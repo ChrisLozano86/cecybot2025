@@ -247,9 +247,9 @@
           </div>
           <div class="col-12 col-md-4 text-center">
             <div style="margin-top: 20px;">
-            <h3>Salón Quinta Caporales, Comonfort, Guanajuato.</h3>
-            <h4>21 de Mayo de 2025</h4>
-            <h4>Arranque del evento y registro: 8:00am - 10:00am</h4>
+            <h4>Salón Quinta Caporales, Comonfort, Guanajuato.</h4>
+            <h5>21 de Mayo de 2025</h5>
+            <p class="fw-bold">Arranque del evento y registro: 8:00am - 10:00am</p>
             </div>
             <img src="admin/assets/img/location.png" style="width: 20%; height: auto;">
           </div>
@@ -260,9 +260,9 @@
         <!-- Sección de Contacto -->
         <section id="contacto" class="my-5">
           <h2>Contacto</h2>
-          <p>Para cualquier duda o comentarios por favor contactanos a cualquiera de los siguientes correos:</p>
-          <p class="font-weigth-bold">christian.lozanoh@cecyteg.edu.mx </p>
-          <p class="font-weigth-bold"> jose.cervantesr@cecyteg.edu.mx</p>
+          <p class="fw-bold">Para cualquier duda o comentarios por favor contactanos a cualquiera de los siguientes correos:</p>
+          <p class="fw-bold"><i class="fas fa-envelope"></i> christian.lozanoh@cecyteg.edu.mx</p>
+          <p class="fw-bold"><i class="fas fa-envelope"></i> jose.cervantesr@cecyteg.edu.mx</p>
         </section>
 
         <!-- Footer -->
