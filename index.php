@@ -12,7 +12,6 @@
     <meta name="twitter:title" content="Primer Torneo de Robótica y Simposio" />
     <meta name="twitter:description" content="CECYBOT 2025 | Unidad Académica Comonfort" />
     <meta name="twitter:image" content="https://cecybot2025.com/admin/assets/img/logo.png" />
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>CECYBOT 2025</title>
     <!-- Bootstrap CSS -->
     <link
@@ -262,8 +261,8 @@
         <section id="contacto" class="my-5">
           <h2>Contacto</h2>
           <p class="fw-bold">Para cualquier duda o comentarios por favor contactanos a cualquiera de los siguientes correos:</p>
-          <p class="fw-bold"><i class="fas fa-envelope"></i> christian.lozanoh@cecyteg.edu.mx</p>
-          <p class="fw-bold"><i class="fas fa-envelope"></i> jose.cervantesr@cecyteg.edu.mx</p>
+          <p>christian.lozanoh@cecyteg.edu.mx</p>
+          <p>jose.cervantesr@cecyteg.edu.mx</p>
         </section>
 
         <!-- Footer -->
