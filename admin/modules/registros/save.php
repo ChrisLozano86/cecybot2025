@@ -130,6 +130,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
             <input class="form-control" type="hidden" name="url_qr" id="url_qr" value="<?php echo $registro->getUrlQr(); ?>">
             <input class="form-control" type="hidden" name="integrante3" id="integrante3"  value="<?php echo $registro->getIntegrante3(); ?>">
+            <input class="form-control" type="hidden" name="integrante4" id="integrante4" value="<?php echo $registro->getIntegrante4(); ?>">
           </div>
 
             <div class="form-group">
@@ -155,18 +156,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>  
 
             <div class="form-group">
-            <label for="contenido">Integrante 1 (Líder del Equipo)</label>
-            <input class="form-control" type="text" name="integrante1" id="integrante1" value="<?php echo $registro->getIntegrante1(); ?>">
-            </div>  
-
-            <div class="form-group">
-            <label for="integrante2">integrante 2</label>
-            <input class="form-control" type="text" name="integrante2" id="integrante2" value="<?php echo $registro->getIntegrante2(); ?>">
-            </div>
-
-
-            <div class="form-group">
-              <label for="categoria">Categoria</label>
+              <label for="categoria">Categoría</label>
             <select name="categoria" id="categoria" class="form-control" style="width: 50%;">
             <option value="">SELECCIONA UNA CATEGORÍA</option>
               <option value="MINI SUMO RC" <?php if($registro->getCategoria()=='MINI SUMO RC'){echo 'selected';}?>>MINI SUMO RC</option>
@@ -175,6 +165,16 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
               <option value="SEGUIDOR DE LINEA EDUCATIVO" <?php if($registro->getCategoria()=='SEGUIDOR DE LINEA EDUCATIVO'){echo 'selected';}?>>SEGUIDOR DE LINEA EDUCATIVO</option>
               <option value="SEGUIDOR DE LINEA PROFESIONAL" <?php if($registro->getCategoria()=='SEGUIDOR DE LINEA PROFESIONAL'){echo 'selected';}?>>SEGUIDOR DE LINEA PROFESIONAL</option>
             </select> 
+            </div>
+
+            <div class="form-group">
+            <label for="contenido">Integrante 1 (Líder del Equipo)</label>
+            <input class="form-control" type="text" name="integrante1" id="integrante1" value="<?php echo $registro->getIntegrante1(); ?>">
+            </div>  
+
+            <div class="form-group">
+            <label for="integrante2">Integrante 2</label>
+            <input class="form-control" type="text" name="integrante2" id="integrante2" value="<?php echo $registro->getIntegrante2(); ?>">
             </div>
 
             <div class="form-group">

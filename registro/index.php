@@ -122,7 +122,8 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             <div class="form-group">
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
-            <input class="form-control" type="hidden" name="integrante3" id="integrante3"  value="">
+            <input class="form-control" type="hidden" name="integrante3" id="integrante3" value="">
+            <input class="form-control" type="hidden" name="integrante4" id="integrante4" value="">
           </div>
 
             <div class="form-group">
@@ -144,7 +145,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </div>  
 
             <div class="form-group">
-              <label for="categoria">Categoria <span class="text text-danger">*</span></label>
+              <label for="categoria">Categoría <span class="text text-danger">*</span></label>
             <select name="categoria" id="categoria" class="form-control" style="width: 80%;">
             <option value="">Selecciona una categoría</option>
               <option value="MINI SUMO RC">Mini Sumo RC Profesional</option>
@@ -165,18 +166,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             <div class="form-group">
             <label for="integrante2">Nombre del Integrante 2</label>
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="">
-            </div>
-
-            <div class="form-group">
-            <label for="integrante2">Nombre del Integrante 3</label>
-            <input class="form-control" type="text" name="integrante3" id="integrante3" placeholder="Solo para categorías de ROBOT SOCCER" value="">
-            </div>
-            
-            <div class="form-group">
-            <label for="integrante2">Nombre del Integrante 4</label>
-            <input class="form-control" type="text" name="integrante4" id="integrante4" placeholder="Solo para categorías de ROBOT SOCCER" value="">
-            </div>
-          
+            </div>      
 
             <div class="form-group">
             <label for="institucioninstitucionSeleccionada">Institución que representas <span class="text text-danger">*</span></label>

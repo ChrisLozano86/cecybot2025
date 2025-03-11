@@ -73,17 +73,17 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
             <input class="form-control" type="hidden" name="url_qr" id="url_qr" value="<?php echo $registro->getUrlQr(); ?>">
+            <input class="form-control" type="hidden" name="integrante3" id="integrante3" value="<?php echo $registro->getIntegrante3(); ?>">
+            <input class="form-control" type="hidden" name="integrante4" id="integrante4" value="<?php echo $registro->getIntegrante4(); ?>">
           </div>
 
             <div class="form-group">
-            <label for="url_img">Logo del equipo 
-               </label>
+            <label for="url_img">Logo del equipo </label>
             <?php    if(isset($_REQUEST['id'])): ?>
               </br>
             <img src="<?='../admin/modules/registros/'.$registro->getUrlImagen(); ?>" style="width:150px" />
             </br></br>
             <?php endif; ?>
-            <!-- <input type="file" class="form-control-file" name="url_img" id="url_img" <?php if($registro->getId()==""){ echo 'required'; }?> > -->
             </div>
 
 
@@ -105,16 +105,6 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <div class="form-group">
             <label for="integrante2">Nombre del Integrante 2</label>
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="<?php echo $registro->getIntegrante2(); ?>" readonly>
-            </div>
-
-            <div class="form-group">
-            <label for="integrante3">Nombre del Integrante 3</label>
-            <input class="form-control" type="text" name="integrante3" id="integrante3" value="<?php echo $registro->getIntegrante3(); ?>" readonly>
-            </div>
-
-            <div class="form-group">
-            <label for="integrante4">Nombre del Integrante 4</label>
-            <input class="form-control" type="text" name="integrante4" id="integrante4" value="<?php echo $registro->getIntegrante4(); ?>" readonly>
             </div>
 
             <div class="form-group">
