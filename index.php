@@ -12,6 +12,7 @@
     <meta name="twitter:title" content="Primer Torneo de Robótica y Simposio" />
     <meta name="twitter:description" content="CECYBOT 2025 | Unidad Académica Comonfort" />
     <meta name="twitter:image" content="https://cecybot2025.com/admin/assets/img/logo.png" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>CECYBOT 2025</title>
     <!-- Bootstrap CSS -->
     <link
