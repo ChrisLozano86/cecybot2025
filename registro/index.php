@@ -144,22 +144,6 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </div>  
 
             <div class="form-group">
-            <label for="contenido">Nombre del Integrante 1 (Capitán del equipo del Equipo) <span class="text text-danger">*</span></label>
-            <input class="form-control" type="text" name="integrante1" id="integrante1" value="">
-            <small class="text-danger error-message" id="error-integrante1"></small>
-            </div>  
-
-            <div class="form-group">
-            <label for="integrante2">Nombre del Integrante 2</label>
-            <input class="form-control" type="text" name="integrante2" id="integrante2" value="">
-            </div>
-
-            
-            
-          
-            
-
-            <div class="form-group">
               <label for="categoria">Categoria <span class="text text-danger">*</span></label>
             <select name="categoria" id="categoria" class="form-control" style="width: 80%;">
             <option value="">Selecciona una categoría</option>
@@ -171,6 +155,28 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </select> 
             <small class="text-danger error-message" id="error-categoria"></small>
             </div>
+
+            <div class="form-group">
+            <label for="contenido">Nombre del Integrante 1 (Capitán del equipo del Equipo) <span class="text text-danger">*</span></label>
+            <input class="form-control" type="text" name="integrante1" id="integrante1" value="">
+            <small class="text-danger error-message" id="error-integrante1"></small>
+            </div>  
+
+            <div class="form-group">
+            <label for="integrante2">Nombre del Integrante 2</label>
+            <input class="form-control" type="text" name="integrante2" id="integrante2" value="">
+            </div>
+
+            <div class="form-group">
+            <label for="integrante2">Nombre del Integrante 3</label>
+            <input class="form-control" type="text" name="integrante3" id="integrante3" placeholder="Solo para categorías de ROBOT SOCCER" value="">
+            </div>
+            
+            <div class="form-group">
+            <label for="integrante2">Nombre del Integrante 4</label>
+            <input class="form-control" type="text" name="integrante4" id="integrante4" placeholder="Solo para categorías de ROBOT SOCCER" value="">
+            </div>
+          
 
             <div class="form-group">
             <label for="institucioninstitucionSeleccionada">Institución que representas <span class="text text-danger">*</span></label>

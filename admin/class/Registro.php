@@ -9,6 +9,7 @@ class Registro {
     private $integrante1;
     private $integrante2;
     private $integrante3;
+    private $integrante4;
     private $categoria;
     private $institucion;
     private $email;
@@ -25,13 +26,14 @@ class Registro {
     
   
     
-    public function __construct($nombre_equipo=null, $coach=null,  $integrante1=null, $integrante2=null, $integrante3=null, $categoria=null, $institucion=null, $email=null, $tel=null, $url_imagen=null, $url_comprobante=null, $url_qr=null, $fecha_registro=null,  $id=null) {
+    public function __construct($nombre_equipo=null, $coach=null,  $integrante1=null, $integrante2=null, $integrante3=null, $integrante4=null, $categoria=null, $institucion=null, $email=null, $tel=null, $url_imagen=null, $url_comprobante=null, $url_qr=null, $fecha_registro=null,  $id=null) {
        
         $this->nombre_equipo = $nombre_equipo;
         $this->coach = $coach;
         $this->integrante1 = $integrante1;
         $this->integrante2 = $integrante2;
         $this->integrante3 = $integrante3;
+        $this->integrante4 = $integrante4;
         $this->categoria = $categoria;
         $this->institucion = $institucion;
         $this->email = $email;
@@ -66,10 +68,16 @@ class Registro {
     public function getIntegrante2() {
         return $this->integrante2;
     }
+    
 
     public function getIntegrante3() {
         return $this->integrante3;
     }
+
+    public function getIntegrante4() {
+        return $this->integrante4;
+    }
+
 
     public function getCategoria() {
         return $this->categoria;
@@ -125,6 +133,10 @@ class Registro {
         $this->integrante3 = $integrante3;
     }
 
+    public function setIntegrante4($integrante4) {
+        $this->integrante4 = $integrante4;
+    }
+
     public function setCategoria($categoria) {
         $this->categoria = $categoria;
     }
@@ -163,13 +175,14 @@ class Registro {
     public function guardar() {
         $conexion = new Conexion();
         if($this->id)/*UPDATE*/{
-            $consulta = $conexion->prepare('UPDATE ' . self::TABLA . ' SET  nombre_equipo = :nombre_equipo, coach = :coach,  integrante1 = :integrante1, integrante2 = :integrante2, integrante3 = :integrante3, categoria = :categoria, institucion = :institucion, email = :email, tel = :tel, url_imagen = :url_imagen, url_comprobante = :url_comprobante, url_qr = :url_qr  WHERE id = :id');
+            $consulta = $conexion->prepare('UPDATE ' . self::TABLA . ' SET  nombre_equipo = :nombre_equipo, coach = :coach,  integrante1 = :integrante1, integrante2 = :integrante2, integrante3 = :integrante3, integrante4 = :integrante4, categoria = :categoria, institucion = :institucion, email = :email, tel = :tel, url_imagen = :url_imagen, url_comprobante = :url_comprobante, url_qr = :url_qr  WHERE id = :id');
             $consulta->bindParam(':id', $this->id);
             $consulta->bindParam(':nombre_equipo', $this->nombre_equipo);         
             $consulta->bindParam(':coach', $this->coach);
             $consulta->bindParam(':integrante1', $this->integrante1); 
             $consulta->bindParam(':integrante2', $this->integrante2);             
-            $consulta->bindParam(':integrante3', $this->integrante3);   
+            $consulta->bindParam(':integrante3', $this->integrante3); 
+            $consulta->bindParam(':integrante4', $this->integrante4);   
             $consulta->bindParam(':categoria', $this->categoria);  
             $consulta->bindParam(':institucion', $this->institucion);  
             $consulta->bindParam(':email', $this->email);  
@@ -179,12 +192,13 @@ class Registro {
             $consulta->bindParam(':url_qr', $this->url_qr);  
             $consulta->execute();
         }else /*Insert*/{
-            $consulta = $conexion->prepare('INSERT INTO ' . self::TABLA . ' (nombre_equipo, coach, integrante1, integrante2, integrante3, categoria, institucion, email, tel, url_imagen, url_comprobante, url_qr) VALUES (:nombre_equipo, :coach, :integrante1, :integrante2, :integrante3, :categoria, :institucion, :email, :tel, :url_imagen, :url_comprobante, :url_qr)');
+            $consulta = $conexion->prepare('INSERT INTO ' . self::TABLA . ' (nombre_equipo, coach, integrante1, integrante2, integrante3, integrante4, categoria, institucion, email, tel, url_imagen, url_comprobante, url_qr) VALUES (:nombre_equipo, :coach, :integrante1, :integrante2, :integrante3, :integrante4, :categoria, :institucion, :email, :tel, :url_imagen, :url_comprobante, :url_qr)');
             $consulta->bindParam(':nombre_equipo', $this->nombre_equipo);         
             $consulta->bindParam(':coach', $this->coach);
             $consulta->bindParam(':integrante1', $this->integrante1); 
             $consulta->bindParam(':integrante2', $this->integrante2);             
-            $consulta->bindParam(':integrante3', $this->integrante3);   
+            $consulta->bindParam(':integrante3', $this->integrante3); 
+            $consulta->bindParam(':integrante4', $this->integrante4);  
             $consulta->bindParam(':categoria', $this->categoria);  
             $consulta->bindParam(':institucion', $this->institucion);  
             $consulta->bindParam(':email', $this->email);  
@@ -227,7 +241,7 @@ class Registro {
         $conexion = null;
         if ($registro) {
            
-            return new self($registro['nombre_equipo'], $registro['coach'], $registro['integrante1'],  $registro['integrante2'], $registro['integrante3'], $registro['categoria'], $registro['institucion'], $registro['email'], $registro['tel'], $registro['url_imagen'], $registro['url_comprobante'], $registro['url_qr'], $registro['fecha_registro'], $registro['id']);
+            return new self($registro['nombre_equipo'], $registro['coach'], $registro['integrante1'],  $registro['integrante2'], $registro['integrante3'], $registro['integrante4'], $registro['categoria'], $registro['institucion'], $registro['email'], $registro['tel'], $registro['url_imagen'], $registro['url_comprobante'], $registro['url_qr'], $registro['fecha_registro'], $registro['id']);
             
         } else {
             return false;
