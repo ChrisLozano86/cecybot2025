@@ -61,15 +61,6 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 }
 
 }
-
-document.getElementById("categoria").addEventListener("change", function () {
-  const categoriaSeleccionada = this.value;
-  const mostrarIntegrantes = categoriaSeleccionada === "ROBOT SOCCER AMATEUR" || categoriaSeleccionada === "ROBOT SOCCER PROFESIONAL";
-
-  document.getElementById("grupo-integrante3").style.display = mostrarIntegrantes ? "block" : "none";
-  document.getElementById("grupo-integrante4").style.display = mostrarIntegrantes ? "block" : "none";
-});
-
 </script>
 
 
@@ -226,6 +217,16 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </div>  
            
             </form>
+
+            <script>
+document.getElementById("categoria").addEventListener("change", function () {
+  const categoriaSeleccionada = this.value;
+  const mostrarIntegrantes = categoriaSeleccionada === "ROBOT SOCCER AMATEUR" || categoriaSeleccionada === "ROBOT SOCCER PROFESIONAL";
+
+  document.getElementById("grupo-integrante3").style.display = mostrarIntegrantes ? "block" : "none";
+  document.getElementById("grupo-integrante4").style.display = mostrarIntegrantes ? "block" : "none";
+});
+</script>
 <!-- Validate -->
 <script src="../admin/assets/js/registro_validate.js"></script> 
 
