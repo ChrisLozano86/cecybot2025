@@ -40,6 +40,11 @@ $registro = new Registro();
             width: 50%;
             border-collapse: collapse;
         }
+        @media screen and (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+        }
         th, td {
             border: 1px solid black;
             padding: 8px;
