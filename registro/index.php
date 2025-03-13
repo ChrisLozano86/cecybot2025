@@ -130,8 +130,6 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             <div class="form-group">
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
-            <input class="form-control" type="hidden" name="integrante3" id="integrante3" value="">
-            <input class="form-control" type="hidden" name="integrante4" id="integrante4" value="">
           </div>
 
             <div class="form-group">
@@ -176,12 +174,12 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="">
             </div>  
             
-            <div class="form-group">
+            <div class="form-group integrante-extra" id="grupo-integrante3" style="display: none;">
             <label for="integrante3">Nombre del Integrante 3</label>
             <input class="form-control" type="text" name="integrante3" id="integrante3" value="">
             </div>  
 
-            <div class="form-group">
+            <div class="form-group integrante-extra" id="grupo-integrante4" style="display: none;">
             <label for="integrante4">Nombre del Integrante 4</label>
             <input class="form-control" type="text" name="integrante4" id="integrante4" value="">
             </div>  
