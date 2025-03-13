@@ -73,8 +73,7 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <input class="form-control" type="hidden" name="url_imagen1" id="url_imagen1" value="<?php echo $registro->getUrlImagen(); ?>">
             <input class="form-control" type="hidden" name="url_imagen2" id="url_imagen2" value="<?php echo $registro->getUrlComprobante(); ?>">
             <input class="form-control" type="hidden" name="url_qr" id="url_qr" value="<?php echo $registro->getUrlQr(); ?>">
-            <input class="form-control" type="hidden" name="integrante3" id="integrante3" value="<?php echo $registro->getIntegrante3(); ?>">
-            <input class="form-control" type="hidden" name="integrante4" id="integrante4" value="<?php echo $registro->getIntegrante4(); ?>">
+          
           </div>
 
             <div class="form-group">
@@ -98,6 +97,11 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>  
 
             <div class="form-group">
+              <label for="categoria">Categoria</label>
+              <input class="form-control" type="text" name="categoria" id="categoria"  value="<?php echo $registro->getCategoria(); ?>" readonly>
+            </div>
+
+            <div class="form-group">
             <label for="contenido">Nombre del Integrante 1 (Capitán del Equipo)</label>
             <input class="form-control" type="text" name="integrante1" id="integrante1" value="<?php echo $registro->getIntegrante1(); ?>" readonly>
             </div>  
@@ -108,9 +112,15 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             </div>
 
             <div class="form-group">
-              <label for="categoria">Categoria</label>
-              <input class="form-control" type="text" name="categoria" id="categoria"  value="<?php echo $registro->getCategoria(); ?>" readonly>
+            <label for="integrante3">Nombre del Integrante 3</label>
+            <input class="form-control" type="text" name="integrante3" id="integrante3" value="<?php echo $registro->getIntegrante3(); ?>" readonly>
             </div>
+
+            <div class="form-group">
+            <label for="integrante4">Nombre del Integrante 4</label>
+            <input class="form-control" type="text" name="integrante4" id="integrante4" value="<?php echo $registro->getIntegrante4(); ?>" readonly>
+            </div>
+
 
             <div class="form-group">
             <label for="institucion">Institución que representa</label>
