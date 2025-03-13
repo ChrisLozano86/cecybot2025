@@ -223,8 +223,19 @@ document.getElementById("categoria").addEventListener("change", function () {
   const categoriaSeleccionada = this.value;
   const mostrarIntegrantes = categoriaSeleccionada === "ROBOT SOCCER AMATEUR" || categoriaSeleccionada === "ROBOT SOCCER PROFESIONAL";
 
-  document.getElementById("grupo-integrante3").style.display = mostrarIntegrantes ? "block" : "none";
-  document.getElementById("grupo-integrante4").style.display = mostrarIntegrantes ? "block" : "none";
+  const integrante3 = document.getElementById("grupo-integrante3");
+  const integrante4 = document.getElementById("grupo-integrante4");
+
+  if (mostrarIntegrantes) {
+    integrante3.style.display = "block";
+    integrante4.style.display = "block";
+  } else {
+    // Ocultar y limpiar campos
+    integrante3.style.display = "none";
+    integrante4.style.display = "none";
+    document.getElementById("integrante3").value = "";
+    document.getElementById("integrante4").value = "";
+  }
 });
 </script>
 <!-- Validate -->
