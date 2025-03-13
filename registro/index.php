@@ -109,15 +109,15 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 <div>
 <p> <span class="font-weight-bold"> Datos de pago: </span></p>
 
-<p>Banco: BBVA Bancomer</p>
+<p><strong>Banco:</strong> BBVA Bancomer</p>
 
-<p>No. de cuenta: 010 823 4469</p>
+<p><strong>No. de cuenta:</strong>No. de cuenta: 010 823 4469</p>
 
-<p>CLABE Interbancaria: 0122 1500 1082 3446 92</p>
+<p><strong>CLABE Interbancaria:</strong> 0122 1500 1082 3446 92</p>
 
-<p> Nombre del destinatario: Caja Popular Dr. José Ma. Luis Mora</p>
+<p> <strong>Nombre del destinatario:</strong> Caja Popular Dr. José Ma. Luis Mora</p>
 
-<p>En el concepto o motivo de pago coloca el "Nombre de tu equipo" que con el que será registrado.</p>
+<p> * En el concepto o motivo de pago coloca el <strong>"Nombre de tu equipo"</strong>  que con el que será registrado.</p>
 
  <p> <span class="font-weight-bold">Cuota de Inscripción: </span></p>
 
