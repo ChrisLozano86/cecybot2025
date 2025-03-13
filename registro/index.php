@@ -35,6 +35,19 @@ $registro = new Registro();
     #loader img {
       width: 80px;
     }
+
+    table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
   </style>
 
 </head>
@@ -99,16 +112,36 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
 <p> Nombre del destinatario: Caja Popular Dr. José Ma. Luis Mora</p>
 
+<p>En el concepto o motivo de pago coloca el "Nombre de tu equipo" que con el que será registrado.</p>
+
  <p> <span class="font-weight-bold">Cuota de Inscripción: </span></p>
 
- <p>• $100.00 MXN (hasta el día 21 de marzo de 2025) </p>
- <p>• $200.00 MXN (hasta el día 4 de abril de 2025) </p>
- <p>• $300.00 MXN (hasta el día 18 de abril de 2025) </p>
- <p>• $400.00 MXN (hasta el día 02 de mayo de 2025) </p>
- <p>• $500.00 MXN (hasta el día 16 de mayo de 2025) </p>
-
- <p>En el concepto o motivo de pago coloca el "Nombre de tu equipo" que con el que será registrado.</p>
-
+ <table>
+        <tr>
+            <th>Seguidores de Línea y Mini Sumo</th>
+            <th>Robot Soccer</th>
+        </tr>
+        <tr>
+            <td>$100.00 MXN (hasta el día 28 de marzo de 2025)</td>
+            <td>$200.00 MXN (hasta el día 28 de marzo de 2025)</td>
+        </tr>
+        <tr>
+            <td>$200.00 MXN (hasta el día 11 de abril de 2025)</td>
+            <td>$300.00 MXN (hasta el día 11 de abril de 2025)</td>
+        </tr>
+        <tr>
+            <td>$300.00 MXN (hasta el día 25 de abril de 2025)</td>
+            <td>$400.00 MXN (hasta el día 25 de abril de 2025)</td>
+        </tr>
+        <tr>
+            <td>$400.00 MXN (hasta el día 9 de mayo de 2025)</td>
+            <td>$500.00 MXN (hasta el día 9 de mayo de 2025)</td>
+        </tr>
+        <tr>
+            <td>$500.00 MXN (hasta el día 15 de mayo de 2025)</td>
+            <td>$600.00 MXN (hasta el día 15 de mayo de 2025)</td>
+        </tr>
+    </table>
 </div>
       <hr>
           <p>Los campos con <span class="text text-danger">*</span> son obligatorios.</p>
