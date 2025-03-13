@@ -22,6 +22,8 @@ $registros = Registro::recuperarTodos();
       <th scope="col">Coach</th>
       <th scope="col">Integrante 1</th>
       <th scope="col">Integrante 2</th>
+      <th scope="col">Integrante 3</th>
+      <th scope="col">Integrante 4</th>
       <th scope="col">Categor&iacute;a</th>
       <th scope="col">Instituci&oacute;n</th>
       <th scope="col">Email</th>
@@ -40,6 +42,8 @@ $registros = Registro::recuperarTodos();
       <td><?php echo $item['coach']; ?></td>
       <td><?php echo $item['integrante1']; ?></td>
       <td><?php echo $item['integrante2']; ?></td>
+      <td><?php echo $item['integrante3']; ?></td>
+      <td><?php echo $item['integrante4']; ?></td>
       <td><?php echo $item['categoria']; ?></td>
       <td><?php echo $item['institucion']; ?></td>
       <td><?php echo $item['email']; ?></td>
