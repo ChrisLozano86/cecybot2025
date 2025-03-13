@@ -111,7 +111,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
 
 <p><strong>Banco:</strong> BBVA Bancomer</p>
 
-<p><strong>No. de cuenta:</strong>No. de cuenta: 010 823 4469</p>
+<p><strong>No. de cuenta:</strong> 010 823 4469</p>
 
 <p><strong>CLABE Interbancaria:</strong> 0122 1500 1082 3446 92</p>
 
