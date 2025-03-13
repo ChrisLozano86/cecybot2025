@@ -62,6 +62,14 @@ document.getElementById('otraInstitucion').style.display = 'block';//si no lo vo
 
 }
 
+document.getElementById("categoria").addEventListener("change", function () {
+  const categoriaSeleccionada = this.value;
+  const mostrarIntegrantes = categoriaSeleccionada === "ROBOT SOCCER AMATEUR" || categoriaSeleccionada === "ROBOT SOCCER PROFESIONAL";
+
+  document.getElementById("grupo-integrante3").style.display = mostrarIntegrantes ? "block" : "none";
+  document.getElementById("grupo-integrante4").style.display = mostrarIntegrantes ? "block" : "none";
+});
+
 </script>
 
 
@@ -158,7 +166,7 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             </div>
 
             <div class="form-group">
-            <label for="contenido">Nombre del Integrante 1 (Capitán del equipo del Equipo) <span class="text text-danger">*</span></label>
+            <label for="integrante1">Nombre del Integrante 1 (Capitán del equipo del Equipo) <span class="text text-danger">*</span></label>
             <input class="form-control" type="text" name="integrante1" id="integrante1" value="">
             <small class="text-danger error-message" id="error-integrante1"></small>
             </div>  
@@ -166,7 +174,17 @@ Si se realiza una transferencia electrónica de otro banco, deberá subir el com
             <div class="form-group">
             <label for="integrante2">Nombre del Integrante 2</label>
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="">
-            </div>      
+            </div>  
+            
+            <div class="form-group">
+            <label for="integrante3">Nombre del Integrante 3</label>
+            <input class="form-control" type="text" name="integrante3" id="integrante3" value="">
+            </div>  
+
+            <div class="form-group">
+            <label for="integrante4">Nombre del Integrante 4</label>
+            <input class="form-control" type="text" name="integrante4" id="integrante4" value="">
+            </div>  
 
             <div class="form-group">
             <label for="institucioninstitucionSeleccionada">Institución que representas <span class="text text-danger">*</span></label>
