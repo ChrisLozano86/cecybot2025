@@ -69,7 +69,7 @@ include_once '../../assets/template/header.php';
       <td class="text-center"><a href="<?php echo $item['url_comprobante']; ?>" target="_blank" class="btn btn-success fas fa-check-square"></a></td>
       <td><?php echo date("d/m/Y", strtotime($item['fecha_registro'])); ?></td>
       <td class="text-center"><a href="save.php?id=<?php echo $item[0];?>" class="btn btn-info fas fa-edit"></a></td>
-      <td class="text-center"><a href="delete.php?id=<?php echo $item[0];?>" onclick="return confirm('¿Está seguro que desea eliminar este registro?')" class="btn btn-danger far fa-trash-alt"></a></td> 
+      <td class="text-center"><a href="delete.php?id=<?php echo $item[0];?>" onclick="return confirm('¿Está seguro que desea eliminar el registro de este equipo?')" class="btn btn-danger far fa-trash-alt"></a></td> 
     </tr>
     <?php endforeach; ?>
   </tbody>

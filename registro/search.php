@@ -110,17 +110,20 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
             <label for="integrante2">Nombre del Integrante 2</label>
             <input class="form-control" type="text" name="integrante2" id="integrante2" value="<?php echo $registro->getIntegrante2(); ?>" readonly>
             </div>
-
+            
+            <?php if (!empty($registro->getIntegrante3())): ?>
             <div class="form-group">
             <label for="integrante3">Nombre del Integrante 3</label>
             <input class="form-control" type="text" name="integrante3" id="integrante3" value="<?php echo $registro->getIntegrante3(); ?>" readonly>
             </div>
+            <?php endif; ?>
 
+            <?php if (!empty($registro->getIntegrante4())): ?>
             <div class="form-group">
             <label for="integrante4">Nombre del Integrante 4</label>
             <input class="form-control" type="text" name="integrante4" id="integrante4" value="<?php echo $registro->getIntegrante4(); ?>" readonly>
             </div>
-
+            <?php endif; ?>
 
             <div class="form-group">
             <label for="institucion">Institución que representa</label>

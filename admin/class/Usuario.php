@@ -192,10 +192,6 @@ class Usuario
         $registro = $consulta->fetch();
         $conexion = null;
         if ($registro) {
-
-            $_SESSION['idUsuario'] = $registro[0];
-            $_SESSION['nombre'] = $registro[1];
-            $_SESSION['email'] = $registro[3];
             $_SESSION['idRol'] = $registro[7];
             return true;
         } else {
