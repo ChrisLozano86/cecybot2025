@@ -114,3 +114,10 @@ box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
     background: #f4f4f4; /* Color de fondo opcional */
     border-radius: 5px; /* Bordes redondeados opcionales */
 }
+
+ /* Ocultar solo durante la impresión */
+ @media print {
+  .no-print {
+    display: none;
+  }
+}

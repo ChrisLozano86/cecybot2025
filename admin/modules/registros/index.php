@@ -5,7 +5,7 @@ $minisumo_rc = Registro::recuperarPorCategoria('MINI SUMO RC');
 $robot_soccer_pro = Registro::recuperarPorCategoria('ROBOT SOCCER PROFESIONAL'); 
 $robot_soccer_amateur = Registro::recuperarPorCategoria('ROBOT SOCCER AMATEUR'); 
 $seguidor_educativo = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA EDUCATIVO'); 
-$seguidor_profesional = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA PROFESIONAL'); 
+$seguidor_amateur = Registro::recuperarPorCategoria('SEGUIDOR DE LINEA AMATEUR'); 
 include_once '../../assets/template/header.php';
 ?>
 
@@ -14,6 +14,7 @@ include_once '../../assets/template/header.php';
       <div class="container-fluid">
         <div class="row">
           <div class="col">
+            
             <h3 class="text-center"> Registros de equipos </h3>
             
               <a href="../../../registro/index.php" class="btn btn-default btn-custom" > <i class="fas fa-plus"></i> Registrar nuevo Equipo </a><br><br>
@@ -33,7 +34,7 @@ include_once '../../assets/template/header.php';
                 <p>Robot Soccer Profesional: <strong><?php echo count($robot_soccer_pro) ?></strong> </p>
                 <p>Robot Soccer Amateur: <strong><?php echo count($robot_soccer_amateur) ?></strong> </p>
                 <p>Seguidor de Línea Educativo: <strong><?php echo count($seguidor_educativo) ?></strong> </p>
-                <p>Seguidor de Línea Profesional: <strong><?php echo count($seguidor_profesional) ?></strong> </p>
+                <p>Seguidor de Línea Amateur: <strong><?php echo count($seguidor_amateur) ?></strong> </p>
               </div>
 
               <hr>
