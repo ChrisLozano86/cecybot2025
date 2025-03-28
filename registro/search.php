@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once '../admin/class/Registro.php';
 $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
 
@@ -151,9 +152,9 @@ $id = (isset($_REQUEST['id'])) ? $_REQUEST['id'] : null;
            
             </form>
             
-            
-            <a href="../index.php" class="btn btn-info no-print">Cerrar</a>
-          
+            <?php if(!isset($_SESSION['idRol'])){?>
+              <a href="../index.php" class="btn btn-info no-print">Cerrar</a>
+            <?php } ?>
 
         
           
