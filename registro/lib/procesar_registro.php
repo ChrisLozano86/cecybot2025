@@ -105,7 +105,7 @@ $institucion = $otraInstitucion;
 
       //Send Email
 
-      define("DEMO", false); 
+     /*  define("DEMO", false); 
         
         
             $template_file = "../email_template/template_notificacion.php";
@@ -144,11 +144,11 @@ $institucion = $otraInstitucion;
         
            
             if (mail($email_to, $email_subject, $email_message, $email_headers) ){ 
-             
+              */
               header('Location: ../confirm.php?id='.$id);
               exit();
 
-          }else{
+        /*   }else{
           
 
             echo "Se ha producido un error";
@@ -158,8 +158,8 @@ $institucion = $otraInstitucion;
       
     }else{
       echo "Se ha producido un error";
-    }
+    } */
 
   }  
         
-      
+}    
