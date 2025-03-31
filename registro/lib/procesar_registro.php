@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-session_start();
 require_once '../../admin/class/Registro.php';
 include 'qr/barcode.php';
 $registro = new Registro(); 
@@ -44,9 +41,7 @@ $institucion = $otraInstitucion;
       $registro->setTel($tel);
       $registro->setUrlQr(""); 
       
-     
-
-       
+    
        $rutaServidorLogos = 'uploads/logos';
        $rutaServidorComprobantes = 'uploads/comprobantes';
       
